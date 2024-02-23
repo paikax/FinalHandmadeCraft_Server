@@ -22,9 +22,16 @@ namespace Controllers
             var result = await _paymentSetupService.SetupPayPal(userId, request);
             if (result)
             {
-                // Optionally return the user's PayPal email in the response
-                var paypalEmail = await _paymentSetupService.GetPayPalEmail(userId);
-                return Ok(new { Message = "PayPal setup successful.", PayPalEmail = paypalEmail });
+                // Optionally return the user's PayPal email and name in the response
+                var paypalInfo = await _paymentSetupService.GetUserPayPalInfo(userId);
+                if (paypalInfo != null)
+                {
+                    return Ok(new { Message = "PayPal setup successful.", PayPalInfo = paypalInfo });
+                }
+                else
+                {
+                    return NotFound("User not found or PayPal info not available.");
+                }
             }
 
             return NotFound("User not found or unable to set up PayPal.");
