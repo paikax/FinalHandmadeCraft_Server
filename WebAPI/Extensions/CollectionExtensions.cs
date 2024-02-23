@@ -24,7 +24,6 @@
                 services.AddScoped<IMaterialService, MaterialService>();
                 services.AddScoped<ITutorialService, TutorialService>();
                 services.AddScoped<IOrderService, OrderService>();
-                services.AddScoped<IPaymentSetupService, PaymentSetupService>();
                 
                 return services;
             }
