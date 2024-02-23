@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\paika\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\paika\\.nuget\\packages"
+    ]
+  }
+}

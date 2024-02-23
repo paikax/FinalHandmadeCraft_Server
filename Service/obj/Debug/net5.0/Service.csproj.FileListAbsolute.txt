@@ -1,0 +1,85 @@
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Service.deps.json
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Service.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\ref\Service.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Service.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Common.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Data.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Data.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Common.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\ref\Service.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Service.deps.json
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Service.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\ref\Service.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Service.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Common.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Data.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Data.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\bin\Debug\net5.0\Common.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\ref\Service.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Service\obj\Debug\net5.0\Service.pdb
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Service.deps.json
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Service.dll
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\ref\Service.dll
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Service.pdb
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Common.dll
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Data.dll
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Data.pdb
+D:\work\my_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Common.pdb
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.dll
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\ref\Service.dll
+D:\work\my_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Service.deps.json
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\ref\Service.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Data.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Data.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\bin\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\ref\Service.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Service\obj\Debug\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\Service.deps.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\ref\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\Data.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\Data.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\ref\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Debug\net5.0\Service.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dgcjCz3hJ4a7qmeHttcfTCkaLUeLZ5WF3U3zd+luOfmQIoWB9aru8McovEhAOP3a3w9bf0XWd7NFxIElnjGMrg==",
+  "success": true,
+  "projectFilePath": "D:\\work\\final_year_greenwich_project\\FinalHandmadeCraft_Server\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paika\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

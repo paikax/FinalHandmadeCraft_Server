@@ -1,0 +1,60 @@
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\Common.deps.json
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\Common.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\ref\Common.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\Common.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\ref\Common.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\Common.deps.json
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\Common.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\ref\Common.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\bin\Debug\net5.0\Common.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\ref\Common.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\Common\obj\Debug\net5.0\Common.pdb
+D:\work\my_project\FinalYearProject_backend\Common\bin\Debug\net5.0\Common.deps.json
+D:\work\my_project\FinalYearProject_backend\Common\bin\Debug\net5.0\Common.dll
+D:\work\my_project\FinalYearProject_backend\Common\bin\Debug\net5.0\ref\Common.dll
+D:\work\my_project\FinalYearProject_backend\Common\bin\Debug\net5.0\Common.pdb
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.dll
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\ref\Common.dll
+D:\work\my_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\bin\Debug\net5.0\Common.deps.json
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\bin\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\bin\Debug\net5.0\ref\Common.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\bin\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\ref\Common.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\Common\obj\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\bin\Debug\net5.0\Common.deps.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\bin\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\bin\Debug\net5.0\ref\Common.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\bin\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\ref\Common.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Common\obj\Debug\net5.0\Common.pdb

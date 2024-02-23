@@ -1,0 +1,935 @@
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\appsettings.Development.json
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\appsettings.json
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.exe
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.deps.json
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.json
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.dev.json
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ref\WebAPI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.csproj.AssemblyReference.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfo.cs
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CoreCompileInputs.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\AutoMapper.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Humanizer.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MailKit.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MimeKit.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Formats.Asn1.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Common.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Data.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Service.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Data.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Service.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Common.pdb
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\SendGrid.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\StarkbankEcdsa.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.Core.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.NetCore.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.SqlServer.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\sv\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr-TR\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+P:\school\final_year project idea\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\appsettings.Development.json
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\appsettings.json
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.exe
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.deps.json
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.json
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.dev.json
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ref\WebAPI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\WebAPI.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\AutoMapper.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.Core.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.NetCore.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Hangfire.SqlServer.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Humanizer.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MailKit.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MimeKit.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\SendGrid.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\StarkbankEcdsa.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Formats.Asn1.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\sv\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr-TR\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Common.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Data.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Service.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Data.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Service.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Common.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.csproj.AssemblyReference.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfo.cs
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CoreCompileInputs.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.pdb
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\AWSSDK.Core.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\AWSSDK.SecurityToken.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\DnsClient.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MongoDB.Bson.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MongoDB.Driver.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\SharpCompress.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\Snappier.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\ZstdSharp.dll
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+P:\school\final_year project idea (main)\CODE\HandmadeCrafts_FINAL\HANDMADE_CRAFTS\WebAPI\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\appsettings.json
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.exe
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.deps.json
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.json
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.dev.json
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ref\WebAPI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AutoMapper.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AWSSDK.Core.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AWSSDK.SecurityToken.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\DnsClient.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.Core.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.NetCore.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.SqlServer.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Humanizer.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MailKit.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MimeKit.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\SendGrid.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\SharpCompress.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Snappier.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\StarkbankEcdsa.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Formats.Asn1.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ZstdSharp.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\sv\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr-TR\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Common.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Data.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Service.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Data.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Service.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Common.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.csproj.AssemblyReference.cache
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfo.cs
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CoreCompileInputs.cache
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.pdb
+D:\work\my_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\appsettings.json
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.exe
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.deps.json
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.json
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.dev.json
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ref\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\WebAPI.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AutoMapper.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AWSSDK.Core.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\AWSSDK.SecurityToken.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\DnsClient.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.Core.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.NetCore.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Hangfire.SqlServer.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Humanizer.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MailKit.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MimeKit.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\SendGrid.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\SharpCompress.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Snappier.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\StarkbankEcdsa.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Formats.Asn1.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ZstdSharp.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\sv\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr-TR\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Data.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Data.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.csproj.AssemblyReference.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CoreCompileInputs.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.pdb
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\BraintreeHttp-Dotnet.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\Source.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\PayPalCheckoutSdk.dll
+D:\work\final_year_greenwich_project\FinalYearProject_backend\WebAPI\bin\Debug\net5.0\PayPalHttp-Dotnet.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\appsettings.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\WebAPI.exe
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\WebAPI.deps.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.dev.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ref\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\WebAPI.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\AutoMapper.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\AWSSDK.Core.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\AWSSDK.SecurityToken.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\BraintreeHttp-Dotnet.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\DnsClient.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Hangfire.Core.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Hangfire.NetCore.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Hangfire.SqlServer.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Humanizer.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\MailKit.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\MimeKit.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Source.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\PayPalCheckoutSdk.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\PayPalHttp-Dotnet.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\SendGrid.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\SharpCompress.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Snappier.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\StarkbankEcdsa.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Formats.Asn1.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ZstdSharp.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\sv\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\tr-TR\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Data.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Data.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\bin\Debug\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.csproj.AssemblyReference.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CoreCompileInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache

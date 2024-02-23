@@ -1,0 +1,97 @@
+using System;
+using System.Security.Claims;
+using System.Text;
+using Common.Constants;
+using Hangfire;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using Service.IServices;
+using Service.Service;
+using Service.Utils;
+using WebAPI.Middleware;
+using WebAPI.Extensions;
+
+
+namespace WebAPI
+{
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+            // AppSettings.ConnectionStrings = Configuration.GetConnectionString("DefaultConnection");
+            services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
+            services.AddTransient<ISendMailService, SendMailService>();
+            services.AddDatabase(Configuration);
+            services.AddServices();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowOrigin",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
+            services.AddPayPalService(Configuration);
+            
+            Common.Constants.AppSettings.Secret = Configuration["AppSettings:Secret"];
+
+            services.AddMapping();
+            // services.AddMemoryCache();
+            services.AddControllers();
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["AppSettings:Secret"])),
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        ValidateLifetime = true,
+                        NameClaimType = ClaimTypes.Name,
+                        ClockSkew = TimeSpan.Zero
+                    };
+                });
+            
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" }); });
+            services.AddAuthorization();
+            services.AddHangfire(x => x.UseSqlServerStorage(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddHangfireServer();
+        }
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
+            }
+
+            app.UseHttpsRedirection();
+            app.UseCors("AllowOrigin");
+            app.UseRouting();
+            // app.UseMiddleware<CachingMiddleware>();
+            app.UseAuthentication();
+            app.UseAuthorization();
+            app.UseHangfireDashboard();
+            app.UseMiddleware<ErrorHandleMiddleware>();
+            app.UseMiddleware<JwtMiddleware>();
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+        }
+    }
+}
