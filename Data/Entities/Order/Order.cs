@@ -12,14 +12,13 @@ namespace Data.Entities.Order
         public string Id { get; set; }
         
         public string UserId { get; set; }
-
+        
         // Include the list of OrderItems directly in the Order class
         public List<OrderItem> Items { get; set; }
-
+        
         public decimal CalculateTotalPrice()
         {
             decimal total = 0;
-
             if (Items != null)
             {
                 foreach (var orderItem in Items)
@@ -27,10 +26,9 @@ namespace Data.Entities.Order
                     total += orderItem.Quantity * orderItem.Price;
                 }
             }
-
             return total;
         }
-
+        
         public string Address { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using Data.Entities.User;
 
 namespace Service.IServices
 {

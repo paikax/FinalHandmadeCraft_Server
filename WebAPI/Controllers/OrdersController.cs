@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Data.Entities.Order;
@@ -38,10 +39,30 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("{userId}")]
-        public async Task<ActionResult<Order>> PostOrder(Order order, string userId)
+        public async Task<ActionResult<Order>> PostOrder(OrderRequest orderRequest, string userId)
         {
-            var createdOrder = await _orderService.CreateOrder(order, userId);
-            return CreatedAtAction(nameof(GetOrder), new { id = createdOrder.Id }, createdOrder);
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                // Optionally, map OrderRequest to Order
+                var order = new Order
+                {
+                    UserId = userId,
+                    Items = orderRequest.Items,
+                    Address = orderRequest.Address
+                };
+
+                var createdOrder = await _orderService.CreateOrder(order, userId);
+                return CreatedAtAction(nameof(GetOrder), new { id = createdOrder.Id }, createdOrder);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [HttpPut("{id}")]

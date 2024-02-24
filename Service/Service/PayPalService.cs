@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Data.Entities.Order;
+using Data.Entities.User;
 using Microsoft.Extensions.Configuration;
 using Service.IServices;
 
@@ -68,5 +69,6 @@ namespace Service.Service
 
             return response.IsSuccessStatusCode;
         }
+        
     }
 }
