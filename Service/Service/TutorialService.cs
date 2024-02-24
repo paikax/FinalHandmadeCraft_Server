@@ -60,6 +60,9 @@ namespace Service.Service
             var user = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == tutorial.CreatedById);
             if (user != null)
             {
+                tutorialDTO.CreatorPayPalEmail = user.PayPalEmail;
+                tutorialDTO.CreatorPayPalFirstName = user.PayPalFirstName;
+                tutorialDTO.CreatorPayPalLastName = user.PayPalLastName;
                 tutorialDTO.UserName = $"{user.FirstName} {user.LastName}";
                 tutorialDTO.UserProfilePicture = user.ProfilePhoto;
             }
@@ -184,6 +187,9 @@ namespace Service.Service
                 {
                     tutorial.UserName = $"{user.FirstName} {user.LastName}";
                     tutorial.UserProfilePicture = user.ProfilePhoto;
+                    tutorial.CreatorPayPalEmail = user.PayPalEmail;
+                    tutorial.CreatorPayPalFirstName = user.PayPalFirstName;
+                    tutorial.CreatorPayPalLastName = user.PayPalLastName;
                 }
             }
 

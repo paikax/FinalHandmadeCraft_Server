@@ -6,6 +6,7 @@ using Data.Context;
 using Data.Entities.User;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Service.IServices;
 using Service.Service;
 
 namespace WebAPI.Controllers
@@ -14,11 +15,11 @@ namespace WebAPI.Controllers
     [Route("api/[controller]")]
     public class PayPalController : ControllerBase
     {
-        private readonly PayPalService _payPalService;
+        private readonly IPayPalService _payPalService;
         private readonly AppDbContext _db;
         private readonly UserService _userService;
 
-        public PayPalController(PayPalService payPalService, AppDbContext db)
+        public PayPalController(IPayPalService payPalService, AppDbContext db)
         {
             _payPalService = payPalService;
             _db = db;
@@ -83,6 +84,27 @@ namespace WebAPI.Controllers
             await _db.SaveChangesAsync();
 
             return Ok(new { user.PayPalEmail, user.PayPalFirstName, user.PayPalLastName });
+        }
+        
+        [HttpPost("send-payment")]
+        public async Task<IActionResult> SendPayment(string recipientEmail, decimal amount)
+        {
+            try
+            {
+                var success = await _payPalService.SendPayment(recipientEmail, amount);
+                if (success)
+                {
+                    return Ok(new { Message = "Payment sent successfully." });
+                }
+                else
+                {
+                    return BadRequest(new { Message = "Failed to send payment." });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
         }
     }
 }

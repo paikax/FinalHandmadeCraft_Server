@@ -26,6 +26,11 @@ namespace Data.Entities.Tutorial
         public decimal Price { get; set; }
         public DateTime UploadTime { get; set; }
         
+        public string CreatorPayPalEmail { get; set; }
+        
+        public string CreatorPayPalFirstName { get; set; }
+        public string CreatorPayPalLastName { get; set; }
+        
         public List<Comment.Comment> Comments { get; set; } = new List<Comment.Comment>();
         public List<Like> Likes { get; set; } = new List<Like>();
         

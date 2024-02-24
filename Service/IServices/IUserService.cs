@@ -30,6 +30,6 @@ namespace Service.IServices
         Task<IEnumerable<User>> GetFollowers(string userId);
         Task<IEnumerable<User>> GetFollowing(string userId);
         public Task<bool> IsFollowing(string followerId, string userId);
-
+        
     }
 }

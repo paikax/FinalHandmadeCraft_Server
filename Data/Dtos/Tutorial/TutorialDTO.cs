@@ -17,6 +17,11 @@ namespace Data.Dtos.Tutorial
         public decimal Price { get; set; }
         public string UserProfilePicture { get; set; }
         public string UserName { get; set; }
+        
+        public string CreatorPayPalEmail { get; set; }
+        
+        public string CreatorPayPalFirstName { get; set; }
+        public string CreatorPayPalLastName { get; set; }
         public string CreatedById { get; set; }
         public DateTime UploadTime { get; set; }
         public List<LikeResponse> Likes { get; set; } = new List<LikeResponse>();

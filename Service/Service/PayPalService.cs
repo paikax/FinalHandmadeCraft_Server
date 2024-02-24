@@ -10,6 +10,7 @@ using Data.Entities.User;
 using Microsoft.Extensions.Configuration;
 using Service.IServices;
 
+
 namespace Service.Service
 {
     public class PayPalService : IPayPalService
@@ -70,5 +71,52 @@ namespace Service.Service
             return response.IsSuccessStatusCode;
         }
         
+        public async Task<bool> SendPayment(string recipientEmail, decimal amount)
+        {
+            try
+            {
+                var authHeader = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{_clientId}:{_clientSecret}"));
+                _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", authHeader);
+
+                var payload = new
+                {
+                    sender_batch_header = new
+                    {
+                        sender_batch_id = Guid.NewGuid().ToString(),
+                        email_subject = "Payment from YourApp"
+                    },
+                    items = new[]
+                    {
+                        new
+                        {
+                            recipient_type = "EMAIL",
+                            amount = new
+                            {
+                                value = amount.ToString("0.00"),
+                                currency = "USD"
+                            },
+                            note = "Payment from YourApp",
+                            receiver = recipientEmail,
+                            sender_item_id = Guid.NewGuid().ToString()
+                        }
+                    }
+                };
+
+                var jsonPayload = JsonSerializer.Serialize(payload);
+                var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
+
+                var response = await _httpClient.PostAsync("https://api.sandbox.paypal.com/v1/payments/payouts", content);
+
+                response.EnsureSuccessStatusCode();
+
+                return response.IsSuccessStatusCode;
+            }
+            catch (Exception ex)
+            {
+                // Handle exception
+                return false;
+            }
+        }
+
     }
 }
