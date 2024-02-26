@@ -175,7 +175,7 @@ namespace Service.Service
         public async Task<List<TutorialDTO>> SearchTutorials(string searchTerm)
         {
             var tutorials = await _mongoDbContext.Tutorials
-                .Find(t => t.Title.ToLower().Contains(searchTerm))
+                .Find(t => t.Title.ToLower().Contains(searchTerm.ToLower()))
                 .ToListAsync();
             var tutorialsDTO = _mapper.Map<List<TutorialDTO>>(tutorials);
 

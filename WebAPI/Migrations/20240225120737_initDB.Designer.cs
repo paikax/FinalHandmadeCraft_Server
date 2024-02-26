@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace WebAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240211145508_initDB")]
+    [Migration("20240225120737_initDB")]
     partial class initDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -119,6 +119,9 @@ namespace WebAPI.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsPayPalLinked")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsPremium")
                         .HasColumnType("bit");
 
@@ -130,6 +133,21 @@ namespace WebAPI.Migrations
 
                     b.Property<DateTime?>("PasswordReset")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("PayPalClientId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PayPalClientSecret")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PayPalEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PayPalFirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PayPalLastName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
@@ -163,6 +181,26 @@ namespace WebAPI.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Data.Entities.User.UserFollower", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("FollowerId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FollowerId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserFollowers");
+                });
+
             modelBuilder.Entity("Data.Entities.RefreshToken", b =>
                 {
                     b.HasOne("Data.Entities.User.User", null)
@@ -170,8 +208,29 @@ namespace WebAPI.Migrations
                         .HasForeignKey("UserId");
                 });
 
+            modelBuilder.Entity("Data.Entities.User.UserFollower", b =>
+                {
+                    b.HasOne("Data.Entities.User.User", "Follower")
+                        .WithMany("Followers")
+                        .HasForeignKey("FollowerId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("Data.Entities.User.User", "User")
+                        .WithMany("Following")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("Follower");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Data.Entities.User.User", b =>
                 {
+                    b.Navigation("Followers");
+
+                    b.Navigation("Following");
+
                     b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618

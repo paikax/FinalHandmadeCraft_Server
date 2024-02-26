@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Data.Dtos.Tutorial;
+using Data.Entities.Tutorial;
 
 namespace Service.IServices
 {
@@ -18,5 +19,6 @@ namespace Service.IServices
         Task RemoveLikeFromTutorial(string tutorialId, string likeId, string userId);
         Task<List<TutorialDTO>> GetAllTutorials();
         Task<List<TutorialDTO>> SearchTutorials(string searchValue);
+        
     }
 }

@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Data.Dtos.Tutorial;
+using Data.Entities.Tutorial;
 using Data.Entities.User;
 using Data.ViewModels.User;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +32,6 @@ namespace Service.IServices
         Task<IEnumerable<User>> GetFollowers(string userId);
         Task<IEnumerable<User>> GetFollowing(string userId);
         public Task<bool> IsFollowing(string followerId, string userId);
-        
+        Task<List<TutorialDTO>> GetLatestTutorialsByUser(string userId, int count);
     }
 }

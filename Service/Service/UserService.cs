@@ -15,7 +15,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Common.Constants;
+using Data.Dtos.Tutorial;
 using Data.Entities;
+using Data.Entities.Tutorial;
+using MongoDB.Driver;
 using Service.IServices;
 using Service.Utils;
 
@@ -28,10 +31,12 @@ namespace Service.Service
         private readonly IMapper _mapper;
         private readonly ISendMailService _sendMailService;
         private readonly IConfiguration _configuration;
+        private readonly MongoDbContext _mongoDbContext;
 
         public UserService(AppDbContext db, IJwtUtils jwtUtils, IMapper mapper,
             ISendMailService sendMailService,
-                IConfiguration configuration
+                IConfiguration configuration,
+            MongoDbContext mongoDbContext
             )
         {
             _sendMailService = sendMailService; 
@@ -39,6 +44,7 @@ namespace Service.Service
             _jwtUtils = jwtUtils;
             _mapper = mapper;
             _configuration = configuration;
+            _mongoDbContext = mongoDbContext;
         }
         
         public async Task<AuthenticationResponse> Authenticate(AuthenticationRequest model, string ipAddress)
@@ -560,6 +566,16 @@ namespace Service.Service
                 .Select(uf => uf.User)
                 .ToListAsync();
         }
+        
+        public async Task<List<TutorialDTO>> GetLatestTutorialsByUser(string userId, int count)
+        {
+            var tutorials = await _mongoDbContext.Tutorials
+                .Find(t => t.CreatedById == userId)
+                .SortByDescending(t => t.UploadTime)
+                .Limit(count)
+                .ToListAsync();
 
+            return _mapper.Map<List<TutorialDTO>>(tutorials);
+        }
     }
 }

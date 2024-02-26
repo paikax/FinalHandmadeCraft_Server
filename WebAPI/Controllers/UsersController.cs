@@ -238,7 +238,21 @@ namespace WebAPI.Controllers
             var isFollowing = await _userService.IsFollowing(userId, followerId);
             return Ok(isFollowing);
         }
+        
+        [HttpGet("{userId}/latest-tutorials")]
+        public async Task<IActionResult> GetLatestUserTutorials(string userId, int count = 4)
+        {
+            try
+            {
+                var tutorials = await _userService.GetLatestTutorialsByUser(userId, count);
+                return Ok(tutorials);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+        }
 
-
+        
     }
 }
