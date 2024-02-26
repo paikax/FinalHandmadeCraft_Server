@@ -3,6 +3,7 @@ using Data.Dtos.Category;
 using Data.Dtos.Tutorial;
 using Data.Entities.Category;
 using Data.Entities.Comment;
+using Data.Entities.Order;
 using Data.Entities.Tutorial;
 using Data.Entities.User;
 using Data.ViewModels.User;
@@ -37,6 +38,10 @@ namespace WebAPI.Mapper
                 config.CreateMap<CommentDTO, Comment>().ReverseMap();
                 config.CreateMap<LikeDTO, Like>().ReverseMap();
                 config.CreateMap<LikeResponse, Like>().ReverseMap();
+                
+                // Order mappings
+                config.CreateMap<Order, OrderDto>().ReverseMap();
+                config.CreateMap<OrderItem, OrderItemDto>().ReverseMap();
                 
                 // user 
                 config.CreateMap<RegisterRequest, User>()

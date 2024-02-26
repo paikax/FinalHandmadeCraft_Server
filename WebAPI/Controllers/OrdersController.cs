@@ -18,15 +18,15 @@ namespace WebAPI.Controllers
             _orderService = orderService;
         }
 
-        [HttpGet("{userId}")]
-        public async Task<ActionResult<List<Order>>> GetOrders(string userId)
+        [HttpGet("/all/{userId}")]
+        public async Task<ActionResult<List<OrderDto>>> GetOrders(string userId)
         {
             var orders = await _orderService.GetOrders(userId);
             return Ok(orders);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Order>> GetOrder(string id)
+        public async Task<ActionResult<OrderDto>> GetOrder(string id)
         {
             var order = await _orderService.GetOrder(id);
 
@@ -39,7 +39,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("{userId}")]
-        public async Task<ActionResult<Order>> PostOrder(OrderRequest orderRequest, string userId)
+        public async Task<ActionResult<OrderDto>> PostOrder(OrderRequest orderRequest, string userId)
         {
             try
             {
@@ -48,15 +48,7 @@ namespace WebAPI.Controllers
                     return BadRequest(ModelState);
                 }
 
-                // Optionally, map OrderRequest to Order
-                var order = new Order
-                {
-                    UserId = userId,
-                    Items = orderRequest.Items,
-                    Address = orderRequest.Address
-                };
-
-                var createdOrder = await _orderService.CreateOrder(order, userId);
+                var createdOrder = await _orderService.CreateOrder(orderRequest, userId);
                 return CreatedAtAction(nameof(GetOrder), new { id = createdOrder.Id }, createdOrder);
             }
             catch (Exception ex)
@@ -66,14 +58,14 @@ namespace WebAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutOrder(string id, Order order)
+        public async Task<IActionResult> PutOrder(string id, OrderDto orderDto)
         {
-            if (id != order.Id)
+            if (id != orderDto.Id)
             {
                 return BadRequest();
             }
 
-            await _orderService.UpdateOrder(id, order);
+            await _orderService.UpdateOrder(id, orderDto);
 
             return NoContent();
         }

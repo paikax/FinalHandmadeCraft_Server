@@ -6,10 +6,10 @@ namespace Service.IServices
 {
     public interface IOrderService
     {
-        Task<List<Order>> GetOrders(string userId);
-        Task<Order> GetOrder(string id);
-        Task<Order> CreateOrder(Order order, string userId);
-        Task UpdateOrder(string id, Order order);
+        Task<List<OrderDto>> GetOrders(string userId);
+        Task<OrderDto> GetOrder(string id);
+        Task<OrderDto> CreateOrder(OrderRequest orderRequest, string userId);
+        Task UpdateOrder(string id, OrderDto orderDto);
         Task DeleteOrder(string id);
     }
 }
