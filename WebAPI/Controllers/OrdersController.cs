@@ -18,7 +18,7 @@ namespace WebAPI.Controllers
             _orderService = orderService;
         }
 
-        [HttpGet("/all/{userId}")]
+        [HttpGet("all/{userId}")]
         public async Task<ActionResult<List<OrderDto>>> GetOrders(string userId)
         {
             var orders = await _orderService.GetOrders(userId);

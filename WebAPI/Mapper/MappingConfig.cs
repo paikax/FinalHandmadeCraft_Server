@@ -42,6 +42,7 @@ namespace WebAPI.Mapper
                 // Order mappings
                 config.CreateMap<Order, OrderDto>().ReverseMap();
                 config.CreateMap<OrderItem, OrderItemDto>().ReverseMap();
+                config.CreateMap<OrderRequest, Order>();
                 
                 // user 
                 config.CreateMap<RegisterRequest, User>()

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebAPI.Migrations
 {
-    public partial class createDBM : Migration
+    public partial class initDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
