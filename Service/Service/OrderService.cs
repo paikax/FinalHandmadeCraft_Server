@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Data.Context;
@@ -36,9 +37,27 @@ namespace Service.Service
         {
             var order = _mapper.Map<Order>(orderRequest);
             order.UserId = userId;
+
+            // Fetch tutorial details for each item in the order and update order properties
+            foreach (var item in order.Items)
+            {
+                var tutorial = await _mongoDbContext.Tutorials.Find(t => t.Id == item.TutorialId).FirstOrDefaultAsync();
+                if (tutorial != null)
+                {
+                    // Update product name, image URL, and quantity
+                    item.ProductName = tutorial.Title;
+                    item.TutorialImageUrl = tutorial.VideoUrl;
+                    item.Price = tutorial.Price;
+                }
+            }
+
+            // Set shipping address and calculate total price
+            // order.Address = orderRequest.Address;
+
             await _mongoDbContext.Orders.InsertOneAsync(order);
             return _mapper.Map<OrderDto>(order);
         }
+
 
         public async Task UpdateOrder(string id, OrderDto orderDto)
         {
