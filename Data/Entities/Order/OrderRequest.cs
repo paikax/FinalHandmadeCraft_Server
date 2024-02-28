@@ -7,7 +7,7 @@ namespace Data.Entities.Order
         public string UserId { get; set; }
         
         public List<OrderItem> Items { get; set; }
-        public int Quantity { get; set; }
+        // public int Quantity { get; set; }
         public decimal TotalPrice { get; set; }
         public string Address { get; set; }
     }
