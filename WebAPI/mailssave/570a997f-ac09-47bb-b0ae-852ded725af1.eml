@@ -1,0 +1,23 @@
+From: HandmadeCraftFINALPROJECT <phongspacenasa@gmail.com>
+Date: Thu, 29 Feb 2024 11:45:03 +0900
+Subject: Verify Email
+Message-Id: <XMPZ19RTEMU4.J6UJE2XMX5VB1@desktop-dpli5sb>
+Sender: HandmadeCraftFINALPROJECT <phongspacenasa@gmail.com>
+To: paika2060@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<p>Please click the below link to verify your account.</p>
+                             <p>
+                                <a 
+                                    style="display: inline-block;
+                                            padding: 10px 20px;
+                                            background-color: #00cc66;
+                                            color: #fff;
+                                            text-decoration: none;
+                                            font-weight: bold;
+                                            border: none;
+                                            border-radius: 5px; " 
+                                    href="https://localhost:5001//api/User/verify-email?token=F38546D0778719221CECB33895314A2FDC27514194F6F4BEA310CE9F7C3A1195AE1554EC3C5283F7">Verify Email
+                                </a>
+                             </p>
