@@ -20,6 +20,7 @@ namespace Data.Entities.Tutorial
         
         public string CategoryId { get; set; }
         
+        public string CategoryName { get; set; }
         public string CreatedById { get; set; }
 
         public List<Material.Material> Materials { get; set; }

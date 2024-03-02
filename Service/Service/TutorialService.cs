@@ -40,6 +40,13 @@ namespace Service.Service
                     tutorial.UserName = $"{user.FirstName} {user.LastName}";
                     tutorial.UserProfilePicture = user.ProfilePhoto;
                 }
+                
+                // Fetch category name
+                var category = await _userDbContext.Categories.FirstOrDefaultAsync(c => c.Id == tutorial.CategoryId);
+                if(category != null)
+                {
+                    tutorial.CategoryName = category.Name;
+                }
             }
 
             return tutorialsDTO;
@@ -65,6 +72,12 @@ namespace Service.Service
                 tutorialDTO.CreatorPayPalLastName = user.PayPalLastName;
                 tutorialDTO.UserName = $"{user.FirstName} {user.LastName}";
                 tutorialDTO.UserProfilePicture = user.ProfilePhoto;
+            }
+            
+            var category = await _userDbContext.Categories.FirstOrDefaultAsync(c => c.Id == tutorial.CategoryId);
+            if (category != null)
+            {
+                tutorialDTO.CategoryName = category.Name;
             }
 
             return tutorialDTO;

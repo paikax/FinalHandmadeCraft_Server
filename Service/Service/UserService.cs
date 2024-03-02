@@ -445,36 +445,64 @@ namespace Service.Service
 
         private async Task SendPasswordResetEmail(User account, string origin)
         {
-            string message;
-            if (!string.IsNullOrEmpty(origin))
-            {
-                var resetUrl = $"{origin}/reset-password?token={account.ResetToken}";
-                message = $@"<p>Please click the below link to reset your password, the link will be valid for 1 day:</p>
-                             <p>
-                                <a 
-                                    style=""display: inline-block;
-                                            padding: 10px 20px;
-                                            background-color: #00cc66;
-                                            color: #fff;
-                                            text-decoration: none;
-                                            font-weight: bold;
-                                            border: none;
-                                            border-radius: 5px; "" 
-                                    href=""{resetUrl}"">Reset password
-                                </a>
-                             </p>";
-            }
-            else
-            {
-                message = $@"<p>Please use the below token to reset your password with the <code>/reset-password</code> api route:</p>
-                             <p><code>{account.ResetToken}</code></p>";
-            }
+            // string message;
+            // if (!string.IsNullOrEmpty(origin))
+            // {
+            //     var resetUrl = $"{origin}/reset-password?token={account.ResetToken}";
+            //     message = $@"<p>Please click the below link to reset your password, the link will be valid for 1 day:</p>
+            //                  <p>
+            //                     <a 
+            //                         style=""display: inline-block;
+            //                                 padding: 10px 20px;
+            //                                 background-color: #00cc66;
+            //                                 color: #fff;
+            //                                 text-decoration: none;
+            //                                 font-weight: bold;
+            //                                 border: none;
+            //                                 border-radius: 5px; "" 
+            //                         href=""{resetUrl}"">Reset password
+            //                     </a>
+            //                  </p>";
+            // }
+            // else
+            // {
+            //     message = $@"<p>Please use the below token to reset your password with the <code>/reset-password</code> api route:</p>
+            //                  <p><code>{account.ResetToken}</code></p>";
+            // }
+            //
+            // await _sendMailService.SendMailAsync(
+            //     account.Email,
+            //     subject: "Sign-up Verification API - Reset Password",
+            //     $@"<h4>Reset Password Email</h4>
+            //              {message}"
+            // );
             
+            
+            string frontEndBaseUrl = "http://localhost:3000";
+    
+            // Construct the URL to the password reset page on your front-end application.
+            // The reset token is appended as a query parameter.
+            var resetUrl = $"{frontEndBaseUrl}/reset-password?token={account.ResetToken}";
+
+            string message = $@"<p>Please click the below link to reset your password, the link will be valid for 1 day:</p>
+                        <p>
+                            <a 
+                                style=""display: inline-block;
+                                        padding: 10px 20px;
+                                        background-color: #00cc66;
+                                        color: #fff;
+                                        text-decoration: none;
+                                        font-weight: bold;
+                                        border: none;
+                                        border-radius: 5px; "" 
+                                href=""{resetUrl}"">Reset password
+                            </a>
+                        </p>";
+
             await _sendMailService.SendMailAsync(
                 account.Email,
-                subject: "Sign-up Verification API - Reset Password",
-                $@"<h4>Reset Password Email</h4>
-                         {message}"
+                subject: "Reset Password",
+                message
             );
         }
         

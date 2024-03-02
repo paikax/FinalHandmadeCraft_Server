@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Service.InitDB;
 using Service.IServices;
 using Service.Service;
 using Service.Utils;
@@ -70,10 +71,11 @@ namespace WebAPI
             services.AddAuthorization();
             services.AddHangfire(x => x.UseSqlServerStorage(Configuration.GetConnectionString("DefaultConnection")));
             services.AddHangfireServer();
+            services.AddTransient<IDbInit, InitDb>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,  IDbInit dbInit)
         {
             if (env.IsDevelopment())
             {
@@ -92,6 +94,7 @@ namespace WebAPI
             app.UseMiddleware<ErrorHandleMiddleware>();
             app.UseMiddleware<JwtMiddleware>();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            dbInit.InitDB();
         }
     }
 }

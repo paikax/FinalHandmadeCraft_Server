@@ -1,4 +1,6 @@
 ﻿// CategoriesController.cs
+
+using System;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -20,44 +22,35 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Category>>> GetCategories()
+        public async Task<ActionResult<List<CategoryDTO>>> GetAllCategories()
         {
-            var categories = await _categoryService.GetAllCategories();
-            return Ok(categories);
+            try
+            {
+                var categories = await _categoryService.GetAllCategories();
+                return Ok(categories);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> GetCategory(string id)
+        public async Task<ActionResult<CategoryDTO>> GetCategoryById(string id)
         {
-            var category = await _categoryService.GetCategory(id);
-
-            if (category == null)
+            try
             {
-                return NotFound();
+                var category = await _categoryService.GetCategoryById(id);
+                if (category == null)
+                {
+                    return NotFound($"Category with ID {id} not found");
+                }
+                return Ok(category);
             }
-
-            return Ok(category);
-        }
-
-        [HttpPost]
-        public async Task<ActionResult<Category>> PostCategory(CreateCategoryDTO createCategoryDTO)
-        {
-            var createdCategory = await _categoryService.CreateCategory(createCategoryDTO);
-            return CreatedAtAction(nameof(GetCategory), new { id = createdCategory.Id }, createdCategory);
-        }
-
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCategory(string id, CreateCategoryDTO createCategoryDTO)
-        {
-            await _categoryService.UpdateCategory(id, createCategoryDTO);
-            return NoContent();
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCategory(string id)
-        {
-            await _categoryService.DeleteCategory(id);
-            return NoContent();
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
     }
 }

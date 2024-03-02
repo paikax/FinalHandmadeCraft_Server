@@ -13,6 +13,7 @@ namespace Data.Dtos.Tutorial
         public string Instruction { get; set; }
         public string VideoUrl { get; set; }
         public string CategoryId { get; set; }
+        public string CategoryName { get; set; }
         public List<string> MaterialIds { get; set; } // Assuming material IDs will be sent from the frontend
         public decimal Price { get; set; }
         public string UserProfilePicture { get; set; }
