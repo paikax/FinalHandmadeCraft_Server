@@ -20,6 +20,7 @@ namespace Data.Dtos.Tutorial
         public string CreatedById { get; set; }
         public decimal Price { get; set; }
         public DateTime UploadTime { get; set; }
+        public string CreatorEmail { get; set; }
         
         public List<string> Comments { get; set; } = new List<string>();
         public int Rating { get; set; } = 0;

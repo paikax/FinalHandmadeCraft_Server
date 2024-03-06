@@ -72,6 +72,7 @@ namespace Service.Service
                 tutorialDTO.CreatorPayPalLastName = user.PayPalLastName;
                 tutorialDTO.UserName = $"{user.FirstName} {user.LastName}";
                 tutorialDTO.UserProfilePicture = user.ProfilePhoto;
+                tutorialDTO.CreatorEmail = user.Email;
             }
             
             var category = await _userDbContext.Categories.FirstOrDefaultAsync(c => c.Id == tutorial.CategoryId);

@@ -30,6 +30,7 @@ namespace Data.Entities.Tutorial
         public DateTime UploadTime { get; set; }
         
         public string CreatorPayPalEmail { get; set; }
+        public string CreatorEmail { get; set; }
         
         public string CreatorPayPalFirstName { get; set; }
         public string CreatorPayPalLastName { get; set; }

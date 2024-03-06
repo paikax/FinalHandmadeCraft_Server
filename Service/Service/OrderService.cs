@@ -83,7 +83,9 @@ namespace Service.Service
             // await _sendMailService.SendMail(buyerEmailContent);
             
             var sellerEmailContent = GenerateSellerEmailContent(order);
+            var buyerEmailContent = GenerateBuyerEmailContent(order);
             await _sendMailService.SendMail(sellerEmailContent);
+            await _sendMailService.SendMail(buyerEmailContent);
         }
 
         private MailContent GenerateBuyerEmailContent(Order order)
@@ -120,9 +122,9 @@ namespace Service.Service
             }
             body += $"\nTotal Price: {order.TotalPrice}\n";
 
-            // var sellerEmail = order.SellerEmail;
-            // for demo send mail after order
-            var sellerEmail = "paikax2060@gmail.com";
+            var sellerEmail = order.SellerEmail;
+            // // for demo send mail after order
+            // var sellerEmail = "paikax2060@gmail.com";
             return new MailContent { To = sellerEmail, Subject = subject, Body = body };
         }
 

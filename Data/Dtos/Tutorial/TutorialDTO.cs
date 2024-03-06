@@ -26,6 +26,7 @@ namespace Data.Dtos.Tutorial
         public string CreatorPayPalLastName { get; set; }
         public string CreatedById { get; set; }
         public DateTime UploadTime { get; set; }
+        public string CreatorEmail { get; set; }
         public List<LikeResponse> Likes { get; set; } = new List<LikeResponse>();
         public List<CommentDTO> Comments { get; set; } = new List<CommentDTO>();
         
