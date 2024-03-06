@@ -24,19 +24,19 @@ namespace WebAPI.Controllers
             var orders = await _orderService.GetOrders(userId);
             return Ok(orders);
         }
-
+        
+        
         [HttpGet("{id}")]
         public async Task<ActionResult<OrderDto>> GetOrder(string id)
         {
-            var order = await _orderService.GetOrder(id);
-
+            var order = await _orderService.GetOrderById(id);
             if (order == null)
             {
                 return NotFound();
             }
-
             return Ok(order);
         }
+
 
         [HttpPost("{userId}")]
         public async Task<ActionResult<OrderDto>> PostOrder(OrderRequest orderRequest, string userId)
@@ -77,5 +77,6 @@ namespace WebAPI.Controllers
 
             return NoContent();
         }
+        
     }
 }

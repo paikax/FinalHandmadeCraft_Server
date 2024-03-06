@@ -7,7 +7,7 @@ namespace Service.IServices
     public interface IOrderService
     {
         Task<List<OrderDto>> GetOrders(string userId);
-        Task<OrderDto> GetOrder(string id);
+        Task<OrderDto> GetOrderById(string id);
         Task<OrderDto> CreateOrder(OrderRequest orderRequest, string userId);
         Task UpdateOrder(string id, OrderDto orderDto);
         Task DeleteOrder(string id);

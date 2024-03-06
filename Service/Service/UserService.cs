@@ -65,7 +65,6 @@ namespace Service.Service
                     throw new Exception("Username or password is incorrect");
                 }
                 
-                // authentication successful so generate JWT and Refresh tokens
                 var jwtToken = GenerateJwtToken(user);
                 var refreshToken = GenerateRefreshToken(ipAddress);
                 

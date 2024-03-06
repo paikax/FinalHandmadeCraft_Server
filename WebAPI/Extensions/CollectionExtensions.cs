@@ -2,6 +2,7 @@
     using System.Collections.Generic;
     using Common.Constants;
     using Data.Context;
+    using Data.Entities.Notification;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +25,7 @@
                 services.AddScoped<IMaterialService, MaterialService>();
                 services.AddScoped<ITutorialService, TutorialService>();
                 services.AddScoped<IOrderService, OrderService>();
+                services.AddScoped<INotificationService, NotificationService>();
                 
                 return services;
             }
