@@ -67,7 +67,7 @@ namespace Service.Service
                 BuyerId = userId,
                 SellerId = order.Items.FirstOrDefault()?.CreatorId ?? "",
                 Title = "New Order Received",
-                Message = $"You have received a new order with ID: {order.Id}",
+                Message = $"You have received a new order with ({order.Items.FirstOrDefault()?.ProductName})",
                 CreatedAt = DateTime.Now
             };
             await _mongoDbContext.Orders.InsertOneAsync(order);

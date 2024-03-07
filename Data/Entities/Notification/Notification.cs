@@ -9,12 +9,9 @@ namespace Data.Entities.Notification
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-        
+        public string Title { get; set; }
         public string BuyerId { get; set; }
         public string SellerId { get; set; }
-        
-        public string Title { get; set; }
-        
         public string Message { get; set; }
         
         [BsonRepresentation(BsonType.DateTime)]

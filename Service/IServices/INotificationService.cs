@@ -11,5 +11,6 @@ namespace Service.IServices
         Task CreateNotification(Notification notification);
         Task UpdateNotification(string id, Notification notification);
         Task DeleteNotification(string id);
+        Task<List<Notification>> GetNewestNotificationsForSeller(string sellerId);
     }
 }

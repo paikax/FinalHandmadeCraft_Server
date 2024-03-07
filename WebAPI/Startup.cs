@@ -1,6 +1,7 @@
 using System;
 using System.Security.Claims;
 using System.Text;
+using AspNetCoreRateLimit;
 using Common.Constants;
 using Hangfire;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -50,7 +51,6 @@ namespace WebAPI
             Common.Constants.AppSettings.Secret = Configuration["AppSettings:Secret"];
 
             services.AddMapping();
-            // services.AddMemoryCache();
             services.AddControllers();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -72,6 +72,15 @@ namespace WebAPI
             services.AddHangfire(x => x.UseSqlServerStorage(Configuration.GetConnectionString("DefaultConnection")));
             services.AddHangfireServer();
             services.AddTransient<IDbInit, InitDb>();
+            // Configure rate limiting options
+            services.Configure<IpRateLimitOptions>(Configuration.GetSection("IpRateLimiting"));
+            services.Configure<IpRateLimitPolicies>(Configuration.GetSection("IpRateLimitPolicies"));
+            services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+
+            services.AddMemoryCache();
+            services.AddInMemoryRateLimiting();
+            
+            services.AddHttpContextAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -83,16 +92,18 @@ namespace WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
             }
+            app.UseIpRateLimiting();
 
             app.UseHttpsRedirection();
             app.UseCors("AllowOrigin");
             app.UseRouting();
-            // app.UseMiddleware<CachingMiddleware>();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseHangfireDashboard();
             app.UseMiddleware<ErrorHandleMiddleware>();
             app.UseMiddleware<JwtMiddleware>();
+   
+            // app.UseMiddleware<CachingMiddleware>();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             dbInit.InitDB();
         }

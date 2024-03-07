@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using Service.IServices;
 using Data.Entities.Notification;
 using System.Collections.Generic;
@@ -59,6 +60,13 @@ namespace WebAPI.Controllers
         {
             await _notificationService.DeleteNotification(id);
             return NoContent();
+        }
+        
+        [HttpGet("seller/{sellerId}")]
+        public async Task<ActionResult<IEnumerable<Notification>>> GetNewestNotificationsForSeller(string sellerId)
+        {
+            var notifications = await _notificationService.GetNewestNotificationsForSeller(sellerId);
+            return Ok(notifications);
         }
     }
 }
