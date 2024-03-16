@@ -645,6 +645,7 @@ namespace Service.Service
                         Email = payload.Email,
                         FirstName = payload.GivenName,
                         LastName = payload.FamilyName,
+                        ProfilePhoto = payload.Picture
                         // You may need to map other properties from the Google payload
                     };
                     await Register(user, null, origin);
@@ -655,7 +656,8 @@ namespace Service.Service
                     var updateRequest = new UpdateRequest
                     {
                         FirstName = payload.GivenName,
-                        LastName = payload.FamilyName
+                        LastName = payload.FamilyName,
+                        ProfilePhoto = payload.Picture
                         // Set other properties as needed
                     };
 
