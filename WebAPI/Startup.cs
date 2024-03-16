@@ -3,6 +3,8 @@ using System.Security.Claims;
 using System.Text;
 using AspNetCoreRateLimit;
 using Common.Constants;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
 using Hangfire;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -53,6 +55,7 @@ namespace WebAPI
             services.AddMapping();
             services.AddControllers();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                
                 .AddJwtBearer(options =>
                 {
                     options.TokenValidationParameters = new TokenValidationParameters
@@ -103,7 +106,7 @@ namespace WebAPI
             app.UseMiddleware<ErrorHandleMiddleware>();
             app.UseMiddleware<JwtMiddleware>();
    
-            // app.UseMiddleware<CachingMiddleware>();
+
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             dbInit.InitDB();
         }

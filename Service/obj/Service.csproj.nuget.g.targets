@@ -4,5 +4,7 @@
     <Import Project="$(NuGetPackageRoot)system.text.encoding.codepages\7.0.0\buildTransitive\netcoreapp2.0\System.Text.Encoding.CodePages.targets" Condition="Exists('$(NuGetPackageRoot)system.text.encoding.codepages\7.0.0\buildTransitive\netcoreapp2.0\System.Text.Encoding.CodePages.targets')" />
     <Import Project="$(NuGetPackageRoot)system.formats.asn1\7.0.0\buildTransitive\netcoreapp2.0\System.Formats.Asn1.targets" Condition="Exists('$(NuGetPackageRoot)system.formats.asn1\7.0.0\buildTransitive\netcoreapp2.0\System.Formats.Asn1.targets')" />
     <Import Project="$(NuGetPackageRoot)system.security.cryptography.pkcs\7.0.3\buildTransitive\netcoreapp2.0\System.Security.Cryptography.Pkcs.targets" Condition="Exists('$(NuGetPackageRoot)system.security.cryptography.pkcs\7.0.3\buildTransitive\netcoreapp2.0\System.Security.Cryptography.Pkcs.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.codedom\7.0.0\buildTransitive\netcoreapp2.0\System.CodeDom.targets" Condition="Exists('$(NuGetPackageRoot)system.codedom\7.0.0\buildTransitive\netcoreapp2.0\System.CodeDom.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.management\7.0.2\buildTransitive\netcoreapp2.0\System.Management.targets" Condition="Exists('$(NuGetPackageRoot)system.management\7.0.2\buildTransitive\netcoreapp2.0\System.Management.targets')" />
   </ImportGroup>
 </Project>

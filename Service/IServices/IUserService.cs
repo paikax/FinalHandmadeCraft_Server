@@ -4,6 +4,7 @@ using Data.Dtos.Tutorial;
 using Data.Entities.Tutorial;
 using Data.Entities.User;
 using Data.ViewModels.User;
+using Google.Apis.Auth;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Service.IServices
@@ -33,5 +34,9 @@ namespace Service.IServices
         Task<IEnumerable<User>> GetFollowing(string userId);
         public Task<bool> IsFollowing(string followerId, string userId);
         Task<List<TutorialDTO>> GetLatestTutorialsByUser(string userId, int count);
+
+        // public Task<AuthenticationResponse> AuthenticateWithGoogle(string googleTokenId, string ipAddress);
+        public Task<AuthenticationResponse> AuthenticateGoogleLogin(GoogleSignInRequest model, string ipAddress,
+            string origin);
     }
 }

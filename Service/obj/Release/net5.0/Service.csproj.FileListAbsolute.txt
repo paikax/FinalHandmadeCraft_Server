@@ -1,0 +1,17 @@
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Release\net5.0\Service.deps.json
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Release\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Release\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Release\net5.0\Common.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Release\net5.0\Data.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Release\net5.0\Data.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\bin\Release\net5.0\Common.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.csproj.AssemblyReference.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.AssemblyInfoInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.AssemblyInfo.cs
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.csproj.Up2Date
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\refint\Service.dll
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\Service.pdb
+D:\work\final_year_greenwich_project\FinalHandmadeCraft_Server\Service\obj\Release\net5.0\ref\Service.dll

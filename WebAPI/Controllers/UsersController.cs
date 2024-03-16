@@ -6,6 +6,7 @@ using Data.ViewModels.User;
 using Microsoft.AspNetCore.Mvc;
 using Service.IServices;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 
 namespace WebAPI.Controllers
 {
@@ -15,11 +16,13 @@ namespace WebAPI.Controllers
     {
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
+        private readonly IConfiguration _config;
 
-        public UserController(IUserService userService, IMapper mapper)
+        public UserController(IUserService userService, IMapper mapper, IConfiguration config)
         {
             _mapper = mapper;
             _userService = userService;
+            _config = config;
         }
         
         [HttpGet("check-email")]
@@ -252,7 +255,20 @@ namespace WebAPI.Controllers
                 return BadRequest(new { Message = ex.Message });
             }
         }
-
         
+        // Google sign in
+        [HttpPost("authenticate-google")]
+        public async Task<IActionResult> AuthenticateGoogle([FromBody] GoogleSignInRequest model)
+        {
+            try
+            {
+                var response = await _userService.AuthenticateGoogleLogin(model, IpAddress(), Request.Headers["origin"]);
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+        }
     }
 }

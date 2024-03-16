@@ -18,6 +18,7 @@ using Common.Constants;
 using Data.Dtos.Tutorial;
 using Data.Entities;
 using Data.Entities.Tutorial;
+using Google.Apis.Auth;
 using MongoDB.Driver;
 using Service.IServices;
 using Service.Utils;
@@ -603,6 +604,80 @@ namespace Service.Service
                 .ToListAsync();
 
             return _mapper.Map<List<TutorialDTO>>(tutorials);
+        }
+        
+
+        public async Task<User> GetUserByEmail(string email)
+        {
+            return await _db.Users.FirstOrDefaultAsync(u => u.Email == email);
+        }
+        
+
+        private async Task<GoogleJsonWebSignature.Payload> VerifyGoogleToken(string tokenId)
+        {
+            try
+            {
+                var payload = await GoogleJsonWebSignature.ValidateAsync(tokenId);
+                return payload;
+            }
+            catch (InvalidJwtException)
+            {
+                return null;
+            }
+        }
+
+        
+        public async Task<AuthenticationResponse> AuthenticateGoogleLogin(GoogleSignInRequest model, string ipAddress, string origin)
+        {
+            try
+            {
+                var payload = await VerifyGoogleToken(model.TokenId);
+                
+                // Check if user exists by email
+                var existingUser = await _db.Users.Include(user => user.RefreshTokens).FirstOrDefaultAsync(u => u.Email == payload.Email);
+
+                User user;
+                if (existingUser == null)
+                {
+                    // If user doesn't exist, create a new one
+                    user = new User
+                    {
+                        Email = payload.Email,
+                        FirstName = payload.GivenName,
+                        LastName = payload.FamilyName,
+                        // You may need to map other properties from the Google payload
+                    };
+                    await Register(user, null, origin);
+                }
+                else
+                {
+                    // If user exists, update user's information
+                    var updateRequest = new UpdateRequest
+                    {
+                        FirstName = payload.GivenName,
+                        LastName = payload.FamilyName
+                        // Set other properties as needed
+                    };
+
+                    await Update(existingUser.Id, updateRequest);
+                    user = existingUser;
+                }
+
+                // Authenticate the user
+                var jwtToken = GenerateJwtToken(user);
+                var refreshToken = GenerateRefreshToken(ipAddress);
+                user.RefreshTokens ??= new List<RefreshToken>();
+                user.RefreshTokens.Add(refreshToken);
+                RemoveOldRefreshTokens(user);
+                await UpdateRefreshToken(user.Id, user.RefreshTokens, refreshToken.Token, ipAddress);
+
+                return new AuthenticationResponse(user, jwtToken, refreshToken.Token);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Google authentication error: {ex.Message}");
+                throw;
+            }
         }
     }
 }
