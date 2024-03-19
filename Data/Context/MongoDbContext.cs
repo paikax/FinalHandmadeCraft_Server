@@ -26,5 +26,7 @@ namespace Data.Context
         public IMongoCollection<OrderItem> OrderItems => _database.GetCollection<OrderItem>("orderitems");
         public IMongoCollection<ForumPost> ForumPosts => _database.GetCollection<ForumPost>("forumposts");
         public IMongoCollection<Notification> Notifications => _database.GetCollection<Notification>("notifications");
+        
+        public IMongoCollection<Comment> Comments => _database.GetCollection<Comment>("Comments");
     }
 }

@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Data.Dtos.Comment;
 using Data.Dtos.Tutorial;
 using Data.Entities.Comment;
 using Data.Entities.Tutorial;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
+using SendGrid.Helpers.Errors.Model;
 using Service.IServices;
 
 namespace WebAPI.Controllers
@@ -114,6 +116,38 @@ namespace WebAPI.Controllers
             var tutorials = await _tutorialService.SearchTutorials(searchTerm);
             return Ok(tutorials);
         }
+        
+        [HttpPost("{tutorialId}/comments/{commentId}/replies")]
+        public async Task<IActionResult> AddReplyToComment(string tutorialId, string commentId, [FromBody] ReplyCreateRequest reply)
+        {
+            try
+            {
+                await _tutorialService.AddReplyToComment(tutorialId, commentId, reply);
+                return Ok("You've added new reply to the comment");
+            }
+            catch (Exception ex)    
+            {
+                Console.Error.WriteLine($"Error adding reply: {ex.Message}");
+                return StatusCode(500, new { error = "Internal Server Error" });
+            }
+        }
+
+        [HttpDelete("{tutorialId}/comments/{commentId}/replies/{replyId}")]
+        public async Task<IActionResult> RemoveReplyFromComment(string tutorialId, string commentId, string replyId)
+        {
+            try
+            {
+                await _tutorialService.RemoveReplyFromComment(tutorialId, commentId, replyId);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error removing reply: {ex.Message}");
+                return StatusCode(500, new { error = "Internal Server Error" });
+            }
+        }
+        
+
 
     }
 }

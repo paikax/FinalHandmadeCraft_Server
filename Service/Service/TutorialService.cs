@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Data.Context;
+using Data.Dtos.Comment;
 using Data.Dtos.Tutorial;
 using Data.Entities.Comment;
 using Data.Entities.Tutorial;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using SendGrid.Helpers.Errors.Model;
 using Service.IServices;
 
 namespace Service.Service
@@ -210,6 +212,50 @@ namespace Service.Service
             return tutorialsDTO;
         }
 
+        public async Task AddReplyToComment(string tutorialId, string commentId, ReplyCreateRequest reply)
+        {
+            var mappedReply = _mapper.Map<Reply>(reply);
+            mappedReply.Id = ObjectId.GenerateNewId().ToString();
+            mappedReply.TimeStamp = DateTime.UtcNow;
+
+            var tutorialFilter = Builders<Tutorial>.Filter.Eq(t => t.Id, tutorialId);
+            var tutorial = await _mongoDbContext.Tutorials.Find(tutorialFilter).FirstOrDefaultAsync();
+
+            if (tutorial != null)
+            {
+                var comment = tutorial.Comments.FirstOrDefault(c => c.Id == commentId);
+                if (comment != null)
+                {
+                    // Add the new reply to the comment
+                    comment.Replies.Add(mappedReply);
+
+                    // Update the tutorial in the database
+                    var update = Builders<Tutorial>.Update.Set(t => t.Comments, tutorial.Comments);
+                    await _mongoDbContext.Tutorials.UpdateOneAsync(tutorialFilter, update);
+                }
+                else
+                {
+                    throw new NotFoundException("Comment not found in the tutorial.");
+                }
+            }
+            else
+            {
+                throw new NotFoundException("Tutorial not found.");
+            }
+        }
+
+
+
+
+        public async Task RemoveReplyFromComment(string tutorialId, string commentId, string replyId)
+        {
+            var commentFilter = Builders<Comment>.Filter.Eq(c => c.Id, commentId);
+            var replyFilter = Builders<Reply>.Filter.Eq(r => r.Id, replyId);
+            var commentUpdate = Builders<Comment>.Update.PullFilter(c => c.Replies, replyFilter);
+
+            await _mongoDbContext.Comments.UpdateOneAsync(commentFilter, commentUpdate);
+        }
         
+
     }
 }
