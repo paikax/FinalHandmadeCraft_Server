@@ -146,8 +146,6 @@ namespace WebAPI.Controllers
                 return StatusCode(500, new { error = "Internal Server Error" });
             }
         }
-        
-
 
     }
 }

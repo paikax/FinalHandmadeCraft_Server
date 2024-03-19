@@ -21,6 +21,5 @@ namespace Service.IServices
         Task AddReplyToComment(string tutorialId, string commentId, ReplyCreateRequest reply);
         
         Task RemoveReplyFromComment(string tutorialId, string commentId, string replyId);
-        
     }
 }

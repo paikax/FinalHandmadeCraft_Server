@@ -243,19 +243,46 @@ namespace Service.Service
                 throw new NotFoundException("Tutorial not found.");
             }
         }
-
-
-
+        
 
         public async Task RemoveReplyFromComment(string tutorialId, string commentId, string replyId)
         {
-            var commentFilter = Builders<Comment>.Filter.Eq(c => c.Id, commentId);
-            var replyFilter = Builders<Reply>.Filter.Eq(r => r.Id, replyId);
-            var commentUpdate = Builders<Comment>.Update.PullFilter(c => c.Replies, replyFilter);
+            var tutorialFilter = Builders<Tutorial>.Filter.Eq(t => t.Id, tutorialId);
+            var tutorial = await _mongoDbContext.Tutorials.Find(tutorialFilter).FirstOrDefaultAsync();
 
-            await _mongoDbContext.Comments.UpdateOneAsync(commentFilter, commentUpdate);
+            if (tutorial != null)
+            {
+                var comment = tutorial.Comments.FirstOrDefault(c => c.Id == commentId);
+                if (comment != null)
+                {
+                    var replyToRemove = comment.Replies.FirstOrDefault(r => r.Id == replyId);
+                    if (replyToRemove != null)
+                    {
+                        // Remove the reply from the comment
+                        comment.Replies.Remove(replyToRemove);
+
+                        // Update the tutorial in the database
+                        var update = Builders<Tutorial>.Update.Set(t => t.Comments, tutorial.Comments);
+                        await _mongoDbContext.Tutorials.UpdateOneAsync(tutorialFilter, update);
+                    }
+                    else
+                    {
+                        throw new NotFoundException("Reply not found in the comment.");
+                    }
+                }
+                else
+                {
+                    throw new NotFoundException("Comment not found in the tutorial.");
+                }
+            }
+            else
+            {
+                throw new NotFoundException("Tutorial not found.");
+            }
         }
-        
 
+
+
+        
     }
 }
