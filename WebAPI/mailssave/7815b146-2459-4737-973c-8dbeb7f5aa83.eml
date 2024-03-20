@@ -1,0 +1,23 @@
+From: HandmadeCraftFINALPROJECT <phongspacenasa@gmail.com>
+Date: Tue, 19 Mar 2024 18:38:54 +0900
+Subject: Verify Email
+Message-Id: <Z1UJ8QEQKMU4.HBRH07LQEOEP3@desktop-dpli5sb>
+Sender: HandmadeCraftFINALPROJECT <phongspacenasa@gmail.com>
+To: predator16032002@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<p>Please click the below link to verify your account.</p>
+                             <p>
+                                <a 
+                                    style="display: inline-block;
+                                            padding: 10px 20px;
+                                            background-color: #00cc66;
+                                            color: #fff;
+                                            text-decoration: none;
+                                            font-weight: bold;
+                                            border: none;
+                                            border-radius: 5px; " 
+                                    href="http://localhost:3000/verify-email?token=8A42EE8C62C800F9692E269DA5DFE705A6A294D251CC5A914F5E06A6EDE416F1FF391B66484D8FAC">Verify Email
+                                </a>
+                             </p>

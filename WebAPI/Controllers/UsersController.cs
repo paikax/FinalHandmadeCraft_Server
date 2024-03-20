@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Data.Entities.User;
@@ -6,6 +7,7 @@ using Data.ViewModels.User;
 using Microsoft.AspNetCore.Mvc;
 using Service.IServices;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 
 namespace WebAPI.Controllers
@@ -17,12 +19,18 @@ namespace WebAPI.Controllers
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
         private readonly IConfiguration _config;
+        private readonly IMemoryCache _cache;
+        private readonly ISendMailService _sendMailService;
 
-        public UserController(IUserService userService, IMapper mapper, IConfiguration config)
+        public UserController(IUserService userService, IMapper mapper, 
+            IConfiguration config, IMemoryCache cache,
+            ISendMailService sendMailService)
         {
             _mapper = mapper;
             _userService = userService;
             _config = config;
+            _cache = cache;
+            _sendMailService = sendMailService;
         }
         
         [HttpGet("check-email")]
@@ -31,6 +39,8 @@ namespace WebAPI.Controllers
             var emailExists = await _userService.EmailExists(email);
             return Ok(new { EmailExists = emailExists });
         }
+
+
 
 
         [HttpPost("register")]
@@ -48,6 +58,7 @@ namespace WebAPI.Controllers
             }
         }
         
+        // validate with token
         [HttpGet("verify-email")]
         public async Task<IActionResult> VerifyEmail(string token)
         {
@@ -270,5 +281,6 @@ namespace WebAPI.Controllers
                 return BadRequest(new { Message = ex.Message });
             }
         }
+        
     }
 }

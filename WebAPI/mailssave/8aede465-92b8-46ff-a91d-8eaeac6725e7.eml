@@ -1,0 +1,56 @@
+From: HandmadeCraftFINALPROJECT <phongspacenasa@gmail.com>
+Date: Tue, 19 Mar 2024 17:19:39 +0900
+Subject: Verification Code for Registration
+Message-Id: <Q6G4XVSPKMU4.5SRV9D3NC81F2@desktop-dpli5sb>
+Sender: HandmadeCraftFINALPROJECT <phongspacenasa@gmail.com>
+To: predator16032002@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Verification Code</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    line-height: 1.6;
+                    margin: 0;
+                    padding: 0;
+                }
+                .container {
+                    max-width: 600px;
+                    margin: auto;
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    background-color: #f9f9f9;
+                }
+                h2 {
+                    color: #333;
+                }
+                p {
+                    margin: 20px 0;
+                }
+                .verification-code {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    display: inline-block;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h2>Verification Code</h2>
+                <p>Your verification code is:</p>
+                <p class="verification-code">484911</p>
+                <p>Please use this code to verify your email address.</p>
+            </div>
+        </body>
+        </html>
+    
