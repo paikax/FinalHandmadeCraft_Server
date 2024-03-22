@@ -13,5 +13,7 @@ namespace Data.Dtos.Comment
         public string CommentId { get; set; }
         [BsonIgnore]
         public User User { get; set; }
+        public string UserName { get; set; }
+        public string UserProfilePhoto { get; set; }
     }
 }

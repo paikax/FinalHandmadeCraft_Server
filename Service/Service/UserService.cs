@@ -66,6 +66,11 @@ namespace Service.Service
                     throw new Exception("Username or password is incorrect");
                 }
                 
+                if (!user.EmailConfirmed)
+                {
+                    throw new Exception("Please verify your email before logging in.");
+                }
+                
                 var jwtToken = GenerateJwtToken(user);
                 var refreshToken = GenerateRefreshToken(ipAddress);
                 
@@ -218,6 +223,29 @@ namespace Service.Service
             }
         }
 
+        // google method not sending email required because authentication through out google
+        public async Task CreateUserWithGoogleMethod(User model, string password, string origin)
+        {
+            try
+            {
+                if (await _db.Users.AnyAsync(x => x.Email == model.Email))
+                {
+                    throw new Exception($"Email '{model.Email}' is already taken");
+                }
+                
+                model.VerificationToken = RandomTokenString();
+
+                await _db.Users.AddAsync(model);
+                await _db.SaveChangesAsync();
+                
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+        }
+        
         public async Task ForgotPassword(ForgotPasswordRequest model, string origin)
         {
             var account = await _db.Users.FirstOrDefaultAsync(u => u.Email.ToLower() == model.Email.ToLower());
@@ -302,7 +330,7 @@ namespace Service.Service
                 var user =  await _db.Users.FirstOrDefaultAsync(u=>u.Id == id);
                 if (user == null) throw new KeyNotFoundException("User not found");
                 _db.Users.Remove(user);
-                _db.SaveChanges();
+                await _db.SaveChangesAsync();
 
             }
             catch (Exception e)
@@ -355,8 +383,6 @@ namespace Service.Service
                 && r.Created.AddDays(AppSettings.RefreshTokenTtl) <= DateTime.Now);
         }
         
-        
-        
         public async Task<User> VerifyEmail(string token)
         {
             var user = await _db.Users.FirstOrDefaultAsync(u => u.VerificationToken == token);
@@ -388,7 +414,7 @@ namespace Service.Service
 
         public async Task Logout(string refreshToken)
         {
-            var user = await _db.Users.SingleOrDefaultAsync(u => 
+            var user = await _db.Users.Include(user => user.RefreshTokens).SingleOrDefaultAsync(u => 
                 u.RefreshTokens.Any(t => t.Token == refreshToken));
 
             if (user == null) 
@@ -407,7 +433,9 @@ namespace Service.Service
 
         public async Task SendVerificationEmail(User user, string origin)
         {
-            var verificationUrl = $"{origin}/api/User/verify-email?token={user.VerificationToken}";
+            string frontEndBaseUrl = "http://localhost:3000";
+            // var verificationUrl = $"{origin}/api/User/verify-email?token={user.VerificationToken}";
+            var verificationUrl = $"{frontEndBaseUrl}/verify-email?token={user.VerificationToken}";
             var message = $@"<p>Please click the below link to verify your account.</p>
                              <p>
                                 <a 
@@ -445,43 +473,8 @@ namespace Service.Service
 
         private async Task SendPasswordResetEmail(User account, string origin)
         {
-            // string message;
-            // if (!string.IsNullOrEmpty(origin))
-            // {
-            //     var resetUrl = $"{origin}/reset-password?token={account.ResetToken}";
-            //     message = $@"<p>Please click the below link to reset your password, the link will be valid for 1 day:</p>
-            //                  <p>
-            //                     <a 
-            //                         style=""display: inline-block;
-            //                                 padding: 10px 20px;
-            //                                 background-color: #00cc66;
-            //                                 color: #fff;
-            //                                 text-decoration: none;
-            //                                 font-weight: bold;
-            //                                 border: none;
-            //                                 border-radius: 5px; "" 
-            //                         href=""{resetUrl}"">Reset password
-            //                     </a>
-            //                  </p>";
-            // }
-            // else
-            // {
-            //     message = $@"<p>Please use the below token to reset your password with the <code>/reset-password</code> api route:</p>
-            //                  <p><code>{account.ResetToken}</code></p>";
-            // }
-            //
-            // await _sendMailService.SendMailAsync(
-            //     account.Email,
-            //     subject: "Sign-up Verification API - Reset Password",
-            //     $@"<h4>Reset Password Email</h4>
-            //              {message}"
-            // );
-            
             
             string frontEndBaseUrl = "http://localhost:3000";
-    
-            // Construct the URL to the password reset page on your front-end application.
-            // The reset token is appended as a query parameter.
             var resetUrl = $"{frontEndBaseUrl}/reset-password?token={account.ResetToken}";
 
             string message = $@"<p>Please click the below link to reset your password, the link will be valid for 1 day:</p>
@@ -506,14 +499,6 @@ namespace Service.Service
             );
         }
         
-        // private async Task<User> GetDeleteAccount(string id)
-        // {
-        //     var account = await _db.Users.FindAsync(u => u.Id == id && u.IsDeleted);
-        //     if (account == null) throw new KeyNotFoundException("Account not found");
-        //
-        //     return account;
-        // }
-        
         public async Task UpgradeToPremium(string userId)
         {
             try
@@ -523,18 +508,14 @@ namespace Service.Service
                 {
                     throw new KeyNotFoundException("User not found");
                 }
-
-                // Check if the user is already premium
+                
                 if (user.IsPremium)
                 {
                     throw new InvalidOperationException("User is already premium");
                 }
-
-                // Implement your logic to upgrade the user to premium
-                // For example, set the IsPremium property to true
+                
                 user.IsPremium = true;
-
-                // Save changes to the database
+                
                 await _db.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -645,10 +626,11 @@ namespace Service.Service
                         Email = payload.Email,
                         FirstName = payload.GivenName,
                         LastName = payload.FamilyName,
-                        ProfilePhoto = payload.Picture
-                        // You may need to map other properties from the Google payload
+                        ProfilePhoto = payload.Picture,
+                        EmailConfirmed = true,
+                        VerifiedAt = DateTime.UtcNow
                     };
-                    await Register(user, null, origin);
+                    await CreateUserWithGoogleMethod(user, null, origin);
                 }
                 else
                 {
@@ -658,7 +640,6 @@ namespace Service.Service
                         FirstName = payload.GivenName,
                         LastName = payload.FamilyName,
                         ProfilePhoto = payload.Picture
-                        // Set other properties as needed
                     };
 
                     await Update(existingUser.Id, updateRequest);

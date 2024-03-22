@@ -40,6 +40,7 @@ namespace WebAPI.Mapper
                 config.CreateMap<LikeDTO, Like>().ReverseMap();
                 config.CreateMap<LikeResponse, Like>().ReverseMap();
                 config.CreateMap<ReplyCreateRequest, Reply>().ReverseMap();
+                config.CreateMap<ReplyDTO, Reply>().ReverseMap();
                 
                 // Order mappings
                 config.CreateMap<Order, OrderDto>().ReverseMap();
