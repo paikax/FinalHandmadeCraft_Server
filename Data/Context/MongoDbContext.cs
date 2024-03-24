@@ -1,4 +1,5 @@
-﻿using Data.Entities.Category;
+﻿using Data.Entities.Cart;
+using Data.Entities.Category;
 using Data.Entities.Comment;
 using Data.Entities.ForumPost;
 using Data.Entities.Material;
@@ -28,5 +29,7 @@ namespace Data.Context
         public IMongoCollection<Notification> Notifications => _database.GetCollection<Notification>("notifications");
         
         public IMongoCollection<Comment> Comments => _database.GetCollection<Comment>("Comments");
+        
+        public IMongoCollection<ShoppingSession> ShoppingSessions => _database.GetCollection<ShoppingSession>("shopping_sessions");
     }
 }

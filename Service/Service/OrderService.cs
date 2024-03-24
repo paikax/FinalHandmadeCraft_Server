@@ -4,8 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Data.Context;
+using Data.Entities.Cart;
 using Data.Entities.Notification;
 using Data.Entities.Order;
+using Microsoft.EntityFrameworkCore;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using Service.IServices;
 using Service.Utils;
@@ -15,15 +18,18 @@ namespace Service.Service
 {
     public class OrderService : IOrderService
     {
+        private readonly AppDbContext _sqlContext;
         private readonly MongoDbContext _mongoDbContext;
         private readonly ISendMailService _sendMailService;
         private readonly IMapper _mapper;
 
-        public OrderService(MongoDbContext mongoDbContext, ISendMailService sendMailService, IMapper mapper)
+        public OrderService(MongoDbContext mongoDbContext, ISendMailService sendMailService, 
+            IMapper mapper, AppDbContext sqlContext)
         {
             _mongoDbContext = mongoDbContext;
             _sendMailService = sendMailService;
             _mapper = mapper;
+            _sqlContext = sqlContext;
         }
 
         public async Task<List<OrderDto>> GetOrders(string userId)
@@ -103,7 +109,7 @@ namespace Service.Service
             }
             body += $"\nTotal Price: {order.TotalPrice}\n";
 
-            var buyerEmail = order.BuyerEmail;
+            var buyerEmail = order.BuyerEmail ?? "";
             return new MailContent { To = buyerEmail, Subject = subject, Body = body };
         }
 
@@ -122,7 +128,7 @@ namespace Service.Service
             }
             body += $"\nTotal Price: {order.TotalPrice}\n";
 
-            var sellerEmail = order.SellerEmail;
+            var sellerEmail = order.SellerEmail ?? "";
             // // for demo send mail after order
             // var sellerEmail = "paikax2060@gmail.com";
             return new MailContent { To = sellerEmail, Subject = subject, Body = body };
@@ -139,5 +145,129 @@ namespace Service.Service
         {
             await _mongoDbContext.Orders.DeleteOneAsync(o => o.Id == id);
         }
+        
+        // Shopping cart
+        public async Task<List<CartItem>> GetCartItems(string userId)
+        {
+            var shoppingSession = await _mongoDbContext.ShoppingSessions
+                .Find(session => session.UserId == userId)
+                .FirstOrDefaultAsync();
+
+            return shoppingSession?.Items ?? new List<CartItem>();
+        }
+
+        public async Task AddToCart(string userId, CartItem cartItem)
+        {
+            // Fetch tutorial details based on product ID
+            var tutorial = await _mongoDbContext.Tutorials
+                .Find(t => t.Id == cartItem.ProductId)
+                .FirstOrDefaultAsync();
+
+            if (tutorial != null)
+            {
+                // Create a cart item with tutorial details
+                var itemToAdd = new CartItem
+                {
+                    ProductId = tutorial.Id,
+                    Price = tutorial.Price,
+                    Quantity = cartItem.Quantity
+                };
+
+                // Add the item to the user's shopping cart
+                var filter = Builders<ShoppingSession>.Filter.Eq(session => session.UserId, userId);
+                var update = Builders<ShoppingSession>.Update.Push(session => session.Items, itemToAdd);
+                var options = new FindOneAndUpdateOptions<ShoppingSession>
+                {
+                    IsUpsert = true,
+                    ReturnDocument = ReturnDocument.After
+                };
+
+                await _mongoDbContext.ShoppingSessions.FindOneAndUpdateAsync(filter, update, options);
+            }
+            else
+            {
+                throw new Exception("Tutorial not found for the provided ID.");
+            }
+        }
+
+        public async Task<OrderDto> BuyItemsFromCart(string userId)
+        {
+            var buyerUser = await _sqlContext.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            if (buyerUser == null)
+            {
+                throw new Exception("User not found.");
+            }
+            var cartItems = await GetCartItems(userId);
+            if (cartItems.Any())
+            {
+                var orderItems = new List<OrderItem>();
+
+                // Iterate through cart items to create order items
+                foreach (var cartItem in cartItems)
+                {
+                    // Fetch tutorial details based on product ID
+                    var tutorial = await _mongoDbContext.Tutorials
+                        .Find(t => t.Id == cartItem.ProductId)
+                        .FirstOrDefaultAsync();
+
+                    if (tutorial != null)
+                    {
+                        orderItems.Add(new OrderItem
+                        {
+                            Id = tutorial.Id,
+                            ProductName = tutorial.Title, // Include product name in order item
+                            TutorialImageUrl = tutorial.VideoUrl,
+                            Price = tutorial.Price,
+                            Quantity = cartItem.Quantity
+                        });
+                    }
+                    else
+                    {
+                        throw new Exception($"Tutorial not found for the product ID: {cartItem.ProductId}");
+                    }
+                }
+
+                // Calculate total price
+                decimal totalPrice = orderItems.Sum(item => item.Price * item.Quantity);
+
+                // Create an order request
+                var orderRequest = new OrderRequest
+                {
+                    UserId = userId,
+                    Items = orderItems,
+                    TotalPrice = totalPrice,
+                    OrderDate = DateTime.Now,
+                    LastUpdated = DateTime.Now,
+                    BuyerEmail = buyerUser.Email
+                };
+
+                // Create the order
+                var order = await CreateOrder(orderRequest, userId);
+
+                // Clear the shopping cart after creating the order
+                await UpdateCart(userId, new List<CartItem>());
+
+                return order;
+            }
+            else
+            {
+                throw new Exception("Cart is empty. Cannot buy items.");
+            }
+        }
+        
+
+        public async Task UpdateCart(string userId, List<CartItem> cartItems)
+        {
+            var filter = Builders<ShoppingSession>.Filter.Eq(session => session.UserId, userId);
+            var update = Builders<ShoppingSession>.Update.Set(session => session.Items, cartItems);
+            var options = new FindOneAndUpdateOptions<ShoppingSession>
+            {
+                IsUpsert = true,
+                ReturnDocument = ReturnDocument.After
+            };
+
+            await _mongoDbContext.ShoppingSessions.FindOneAndUpdateAsync(filter, update, options);
+        }
+
     }
 }
