@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Data.Entities.Cart;
 using Data.Entities.Order;
 using Service.IServices;
 
@@ -77,6 +78,42 @@ namespace WebAPI.Controllers
 
             return NoContent();
         }
+        
+        
+        // add to cart
+        [HttpPost("cart /{userId}")]
+        public async Task<IActionResult> AddToCart(string userId, CartItem item)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                await _orderService.AddToCart(userId, item);
+                return Ok("Item added to cart successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpPost("cart/buy/{userId}")]
+        public async Task<IActionResult> BuyItemsFromCart(string userId)
+        {
+            try
+            {
+                await _orderService.BuyItemsFromCart(userId);
+                return Ok("Items purchased successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
         
     }
 }
