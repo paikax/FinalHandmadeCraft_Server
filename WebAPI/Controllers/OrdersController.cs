@@ -81,7 +81,7 @@ namespace WebAPI.Controllers
         
         
         // add to cart
-        [HttpPost("cart /{userId}")]
+        [HttpPost("cart/{userId}")]
         public async Task<IActionResult> AddToCart(string userId, CartItem item)
         {
             try
@@ -101,11 +101,11 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("cart/buy/{userId}")]
-        public async Task<IActionResult> BuyItemsFromCart(string userId)
+        public async Task<IActionResult> BuyItemsFromCart(string userId, string buyUserAddress)
         {
             try
             {
-                await _orderService.BuyItemsFromCart(userId);
+                await _orderService.BuyItemsFromCart(userId, buyUserAddress);
                 return Ok("Items purchased successfully.");
             }
             catch (Exception ex)
@@ -113,7 +113,62 @@ namespace WebAPI.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
-
         
+        [HttpPut("cart/{userId}/{productId}")]
+        public async Task<IActionResult> UpdateCartItemQuantity(string userId, string productId, int quantity)
+        {
+            try
+            {
+                await _orderService.UpdateCartItemQuantity(userId, productId, quantity);
+                return Ok("Cart item quantity updated successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+        
+        // Remove from cart
+        [HttpDelete("cart/{userId}/{productId}")]
+        public async Task<IActionResult> RemoveFromCart(string userId, string productId)
+        {
+            try
+            {
+                await _orderService.RemoveFromCart(userId, productId);
+                return Ok("Item removed from cart successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+        
+        [HttpGet("cart/{userId}")]
+        public async Task<ActionResult<List<CartItem>>> GetCartItems(string userId)
+        {
+            try
+            {
+                var cartItems = await _orderService.GetCartItems(userId);
+                return Ok(cartItems);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+        
+        [HttpDelete("cart/{userId}")]
+        public async Task<IActionResult> ClearCart(string userId)
+        {
+            try
+            {
+                await _orderService.ClearCart(userId);
+                return Ok("Cart cleared successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
     }
 }

@@ -15,7 +15,10 @@ namespace Service.IServices
         
         Task<List<CartItem>> GetCartItems(string userId);
         Task AddToCart(string userId, CartItem cartItem);
-        Task<OrderDto> BuyItemsFromCart(string userId);
+        Task RemoveFromCart(string userId, string productId);
+        Task UpdateCartItemQuantity(string userId, string productId, int quantity);
+        Task<OrderDto> BuyItemsFromCart(string userId, string address);
         Task UpdateCart(string userId, List<CartItem> cartItems);
+        Task ClearCart(string userId);
     }
 }
