@@ -32,5 +32,6 @@ namespace Data.Entities.Order
         [BsonRepresentation(BsonType.DateTime)]
         public DateTime LastUpdated { get; set; }
         public string CreatorId { get; set; }
+        public List<string> SellerEmails { get; set; }
     }
 }

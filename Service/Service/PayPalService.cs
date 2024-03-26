@@ -75,6 +75,10 @@ namespace Service.Service
         {
             try
             {
+                // Calculate the commission amount (5%)
+                var commission = amount * 0.05m;
+                var amountAfterCommission = amount - commission;
+                
                 var authHeader = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{_clientId}:{_clientSecret}"));
                 _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", authHeader);
 
@@ -92,7 +96,7 @@ namespace Service.Service
                             recipient_type = "EMAIL",
                             amount = new
                             {
-                                value = amount.ToString("0.00"),
+                                value = amountAfterCommission.ToString("0.00"),
                                 currency = "USD"
                             },
                             note = "Payment from YourApp",

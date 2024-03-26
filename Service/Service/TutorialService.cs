@@ -32,26 +32,32 @@ namespace Service.Service
         public async Task<List<TutorialDTO>> GetAllTutorials()
         {
             var tutorials = await _mongoDbContext.Tutorials.Find(_ => true).ToListAsync();
-            var tutorialsDTO = _mapper.Map<List<TutorialDTO>>(tutorials);
+            var tutorialsDTO = new List<TutorialDTO>();
 
-            foreach(var tutorial in tutorialsDTO)
+            foreach(var tutorial in tutorials)
             {
+                var tutorialDTO = _mapper.Map<TutorialDTO>(tutorial);
+
                 var user = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == tutorial.CreatedById);
                 if(user != null)
                 {
-                    tutorial.UserName = $"{user.FirstName} {user.LastName}";
-                    tutorial.UserProfilePicture = user.ProfilePhoto;
+                    tutorialDTO.UserName = $"{user.FirstName} {user.LastName}";
+                    tutorialDTO.UserProfilePicture = user.ProfilePhoto;
+                    tutorialDTO.CreatorPayPalEmail = user.PayPalEmail;
+                    tutorialDTO.CreatorPayPalFirstName = user.PayPalFirstName;
+                    tutorialDTO.CreatorPayPalLastName = user.PayPalLastName;
+                    tutorialDTO.CreatorEmail = user.Email;
                 }
-        
+
                 // Fetch category name
                 var category = await _userDbContext.Categories.FirstOrDefaultAsync(c => c.Id == tutorial.CategoryId);
                 if(category != null)
                 {
-                    tutorial.CategoryName = category.Name;
+                    tutorialDTO.CategoryName = category.Name;
                 }
 
                 // Populate user details for comments
-                foreach (var comment in tutorial.Comments)
+                foreach (var comment in tutorialDTO.Comments)
                 {
                     var commentUser = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == comment.UserId);
                     if (commentUser != null)
@@ -60,6 +66,8 @@ namespace Service.Service
                         comment.UserProfilePhoto = commentUser.ProfilePhoto;
                     }
                 }
+
+                tutorialsDTO.Add(tutorialDTO);
             }
 
             return tutorialsDTO;
@@ -67,60 +75,61 @@ namespace Service.Service
 
 
 
+
+
         public async Task<TutorialDTO> GetTutorialById(string id)
-{
-    var tutorial = await _mongoDbContext.Tutorials.Find(t => t.Id == id).FirstOrDefaultAsync();
-    if (tutorial == null)
-    {
-        return null; // or handle appropriately if tutorial not found
-    }
-
-    var tutorialDTO = _mapper.Map<TutorialDTO>(tutorial);
-
-    // Fetch user details for the tutorial creator
-    var tutorialCreator = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == tutorial.CreatedById);
-    if (tutorialCreator != null)
-    {
-        tutorialDTO.CreatorPayPalEmail = tutorialCreator.PayPalEmail;
-        tutorialDTO.CreatorPayPalFirstName = tutorialCreator.PayPalFirstName;
-        tutorialDTO.CreatorPayPalLastName = tutorialCreator.PayPalLastName;
-        tutorialDTO.UserName = $"{tutorialCreator.FirstName} {tutorialCreator.LastName}";
-        tutorialDTO.UserProfilePicture = tutorialCreator.ProfilePhoto;
-        tutorialDTO.CreatorEmail = tutorialCreator.Email;
-    }
-
-    // Fetch user details for comments and replies
-    foreach (var comment in tutorialDTO.Comments)
-    {
-        // Fetch user details for the comment author
-        var commentUser = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == comment.UserId);
-        if (commentUser != null)
         {
-            comment.UserName = $"{commentUser.FirstName} {commentUser.LastName}";
-            comment.UserProfilePhoto = commentUser.ProfilePhoto;
-        }
-
-        // Fetch user details for each reply in the comment
-        foreach (var reply in comment.Replies)
-        {
-            var replyUser = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == reply.UserId);
-            if (replyUser != null)
+            var tutorial = await _mongoDbContext.Tutorials.Find(t => t.Id == id).FirstOrDefaultAsync();
+            if (tutorial == null)
             {
-                reply.UserName = $"{replyUser.FirstName} {replyUser.LastName}";
-                reply.UserProfilePhoto = replyUser.ProfilePhoto;
+                return null; // or handle appropriately if tutorial not found
             }
+
+            var tutorialDTO = _mapper.Map<TutorialDTO>(tutorial);
+
+            // Fetch user details for the tutorial creator
+            var tutorialCreator = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == tutorial.CreatedById);
+            if (tutorialCreator != null)
+            {
+                tutorialDTO.CreatorPayPalEmail = tutorialCreator.PayPalEmail ?? "";
+                tutorialDTO.CreatorPayPalFirstName = tutorialCreator.PayPalFirstName;
+                tutorialDTO.CreatorPayPalLastName = tutorialCreator.PayPalLastName;
+                tutorialDTO.UserName = $"{tutorialCreator.FirstName} {tutorialCreator.LastName}";
+                tutorialDTO.UserProfilePicture = tutorialCreator.ProfilePhoto;
+                tutorialDTO.CreatorEmail = tutorialCreator.Email;
+            }
+
+            // Fetch user details for comments and replies
+            foreach (var comment in tutorialDTO.Comments)
+            {
+                // Fetch user details for the comment author
+                var commentUser = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == comment.UserId);
+                if (commentUser != null)
+                {
+                    comment.UserName = $"{commentUser.FirstName} {commentUser.LastName}";
+                    comment.UserProfilePhoto = commentUser.ProfilePhoto;
+                }
+
+                // Fetch user details for each reply in the comment
+                foreach (var reply in comment.Replies)
+                {
+                    var replyUser = await _userDbContext.Users.FirstOrDefaultAsync(u => u.Id == reply.UserId);
+                    if (replyUser != null)
+                    {
+                        reply.UserName = $"{replyUser.FirstName} {replyUser.LastName}";
+                        reply.UserProfilePhoto = replyUser.ProfilePhoto;
+                    }
+                }
+            }
+
+            // Fetch category details
+            var category = await _userDbContext.Categories.FirstOrDefaultAsync(c => c.Id == tutorial.CategoryId);
+            if (category != null)
+            {
+                tutorialDTO.CategoryName = category.Name;
+            }
+            return tutorialDTO;
         }
-    }
-
-    // Fetch category details
-    var category = await _userDbContext.Categories.FirstOrDefaultAsync(c => c.Id == tutorial.CategoryId);
-    if (category != null)
-    {
-        tutorialDTO.CategoryName = category.Name;
-    }
-
-    return tutorialDTO;
-}
 
 
 

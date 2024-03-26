@@ -14,13 +14,11 @@ namespace Data.Dtos.Tutorial
         public string Instruction { get; set; }
         public string VideoUrl { get; set; }
         public string CategoryId { get; set; }
-        public string CategoryName { get; set; }
         public string Material { get; set; }
         public List<string> MaterialIds { get; set; }
         public string CreatedById { get; set; }
         public decimal Price { get; set; }
         public DateTime UploadTime { get; set; }
-        public string CreatorEmail { get; set; }
         
         public List<string> Comments { get; set; } = new List<string>();
         public int Rating { get; set; } = 0;

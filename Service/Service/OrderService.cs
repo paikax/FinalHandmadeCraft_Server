@@ -33,6 +33,8 @@ namespace Service.Service
             _mapper = mapper;
             _sqlContext = sqlContext;
         }
+        
+        private const decimal CommissionRate = 0.05m;
 
         public async Task<List<OrderDto>> GetOrders(string userId)
         {
@@ -132,7 +134,7 @@ namespace Service.Service
             var order = _mapper.Map<Order>(orderRequest);
             order.UserId = userId;
             order.OrderDate = DateTime.Now;
-            order.SellerEmail = orderRequest.SellerEmail;
+            // order.SellerEmail = orderRequest.SellerEmail;
             order.CreatorId = orderRequest.CreatorId;
             order.BuyerEmail = order.BuyerEmail;
 
@@ -142,12 +144,7 @@ namespace Service.Service
                 var tutorial = await _mongoDbContext.Tutorials.Find(t => t.Id == item.TutorialId).FirstOrDefaultAsync();
                 if (tutorial != null)
                 {
-                    // item.ProductName = tutorial.Title;
-                    // item.TutorialImageUrl = tutorial.VideoUrl;
                     item.Price = tutorial.Price;
-                    
-                    // Get the creatorId of the tutorial
-                    // item.CreatorId = tutorial.CreatedById;
                 }
             }
 
@@ -177,12 +174,15 @@ namespace Service.Service
         
         private async Task SendEmails(Order order)
         {
-            // Generate email content
-            var sellerEmailContent = await GenerateSellerEmailContent(order);
+            // Send emails to sellers for each item in the order
+            foreach (var item in order.Items)
+            {
+                var sellerEmailContent = await GenerateSellerEmailContent(order, item);
+                await _sendMailService.SendMail(sellerEmailContent);
+            }
+
+            // Send email to the buyer
             var buyerEmailContent = await GenerateBuyerEmailContent(order);
-    
-            // Send emails
-            await _sendMailService.SendMail(sellerEmailContent);
             await _sendMailService.SendMail(buyerEmailContent);
         }
 
@@ -207,7 +207,7 @@ namespace Service.Service
             return new MailContent { To = buyerEmail, Subject = subject, Body = body };
         }
 
-        private async Task<MailContent> GenerateSellerEmailContent(Order order)
+        private async Task<MailContent> GenerateSellerEmailContent(Order order, OrderItem item)
         {
             var subject = "New Order Received";
             var body = "You have received a new order! Here are the details:\n\n";
@@ -215,18 +215,43 @@ namespace Service.Service
             // Append order details to the email body
             body += $"Order ID: {order.Id}\n";
             body += $"Order Date: {order.OrderDate}\n";
-            body += "Items:\n";
-            foreach (var item in order.Items)
-            {
-                var productName = await GetProductNameFromTutorialId(item.TutorialId);
-                body += $"- {productName} (Price: {item.Price}, Quantity: {item.Quantity})\n";
-            }
-            body += $"\nTotal Price: {order.TotalPrice}\n";
+            body += "Item Details:\n";
 
-            var sellerEmail = order.SellerEmail ?? "";
-            // // for demo send mail after order
-            // var sellerEmail = "paikax2060@gmail.com";
-            return new MailContent { To = sellerEmail, Subject = subject, Body = body };
+            var productName = await GetProductNameFromTutorialId(item.TutorialId);
+            body += $"- Product Name: {productName}\n";
+            body += $"- Price: {item.Price}\n";
+            body += $"- Quantity: {item.Quantity}\n";
+            body += $"- Total Price: {item.Price * item.Quantity}\n\n";
+
+            // Fetch the tutorial to get the creator's ID
+            var tutorial = await _mongoDbContext.Tutorials
+                .Find(t => t.Id == item.TutorialId)
+                .FirstOrDefaultAsync();
+
+            if (tutorial != null)
+            {
+                // Fetch the creator's email using the creator's ID from the tutorial
+                var creatorEmail = await GetCreatorEmailFromId(tutorial.CreatedById);
+                return new MailContent { To = creatorEmail, Subject = subject, Body = body };
+            }
+            else
+            {
+                throw new Exception($"Tutorial not found for the TutorialId: {item.TutorialId}");
+            }
+        }
+        
+        private async Task<string> GetCreatorEmailFromId(string creatorId)
+        {
+            // Assuming you have a mechanism to retrieve the creator's email using the creatorId
+            var creator = await _sqlContext.Users.FirstOrDefaultAsync(u => u.Id == creatorId);
+            if (creator != null)
+            {
+                return creator.Email;
+            }
+            else
+            {
+                throw new Exception($"Creator not found for the CreatorId: {creatorId}");
+            }
         }
 
 
@@ -380,6 +405,8 @@ namespace Service.Service
                     
                     // Calculate total price
                     decimal totalPrice = orderItems.Sum(item => item.Price * item.Quantity);
+                    
+                   
 
                     // Create an order request
                     var orderRequest = new OrderRequest
@@ -395,6 +422,7 @@ namespace Service.Service
 
                     // Create the order
                     var order = await CreateOrder(orderRequest, userId);
+                    
 
                     // Clear the shopping cart after creating the order
                     await UpdateCart(userId, new List<CartItem>());
@@ -468,6 +496,25 @@ namespace Service.Service
         {
             await _mongoDbContext.ShoppingSessions.DeleteOneAsync(session => session.UserId == userId);
         }
+        
+        private async Task<List<string>> GetSellerEmails(List<OrderItem> orderItems)
+        {
+            var sellerEmails = new List<string>();
 
+            foreach (var item in orderItems)
+            {
+                var tutorial = await _mongoDbContext.Tutorials.Find(t => t.Id == item.TutorialId).FirstOrDefaultAsync();
+                if (tutorial != null)
+                {
+                    // var creatorEmail = tutorial.CreatorEmail;
+                    // if (!sellerEmails.Contains(creatorEmail))
+                    // {
+                    //     sellerEmails.Add(creatorEmail); // Add seller email to the list if it's not already present
+                    // }
+                }
+            }
+
+            return sellerEmails;
+        }
     }
 }

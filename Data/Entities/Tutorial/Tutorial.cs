@@ -17,10 +17,7 @@ namespace Data.Entities.Tutorial
         public string CompletionTime { get; set; }
         public string Instruction { get; set; }
         public string VideoUrl { get; set; }
-        
         public string CategoryId { get; set; }
-        
-        public string CategoryName { get; set; }
         
         public string Material { get; set; }
         public string CreatedById { get; set; }
@@ -28,12 +25,6 @@ namespace Data.Entities.Tutorial
         public List<Material.Material> Materials { get; set; }
         public decimal Price { get; set; }
         public DateTime UploadTime { get; set; }
-        
-        public string CreatorPayPalEmail { get; set; }
-        public string CreatorEmail { get; set; }
-        
-        public string CreatorPayPalFirstName { get; set; }
-        public string CreatorPayPalLastName { get; set; }
         
         public List<Comment.Comment> Comments { get; set; } = new List<Comment.Comment>();
         public List<Like> Likes { get; set; } = new List<Like>();
