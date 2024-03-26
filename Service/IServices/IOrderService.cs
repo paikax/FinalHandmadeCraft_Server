@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Data.Entities.Cart;
 using Data.Entities.Order;
+using Data.VM;
 
 namespace Service.IServices
 {
@@ -12,8 +13,8 @@ namespace Service.IServices
         Task<OrderDto> CreateOrder(OrderRequest orderRequest, string userId);
         Task UpdateOrder(string id, OrderDto orderDto);
         Task DeleteOrder(string id);
-        
-        Task<List<CartItem>> GetCartItems(string userId);
+
+        Task<List<CartItemViewModel>> GetCartItems(string userId);
         Task AddToCart(string userId, CartItem cartItem);
         Task RemoveFromCart(string userId, string productId);
         Task UpdateCartItemQuantity(string userId, string productId, int quantity);

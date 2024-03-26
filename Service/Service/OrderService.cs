@@ -7,6 +7,7 @@ using Data.Context;
 using Data.Entities.Cart;
 using Data.Entities.Notification;
 using Data.Entities.Order;
+using Data.VM;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -61,8 +62,8 @@ namespace Service.Service
                         var orderItemDto = new OrderItemDto
                         {
                             ProductId = orderItem.Id,
-                            ProductName = tutorial.Title, // Assuming the name of the tutorial is stored in the 'Name' property
-                            TutorialImageUrl = tutorial.VideoUrl, // Assuming the URL of the tutorial image is stored in the 'ImageUrl' property
+                            ProductName = tutorial.Title, 
+                            TutorialImageUrl = tutorial.VideoUrl,
                             Price = orderItem.Price,
                             Quantity = orderItem.Quantity
                         };
@@ -109,8 +110,8 @@ namespace Service.Service
                     var orderItemDto = new OrderItemDto
                     {
                         ProductId = orderItem.Id,
-                        ProductName = tutorial.Title, // Assuming the name of the tutorial is stored in the 'Name' property
-                        TutorialImageUrl = tutorial.VideoUrl, // Assuming the URL of the tutorial image is stored in the 'ImageUrl' property
+                        ProductName = tutorial.Title, 
+                        TutorialImageUrl = tutorial.VideoUrl, 
                         Price = orderItem.Price,
                         Quantity = orderItem.Quantity
                     };
@@ -241,14 +242,39 @@ namespace Service.Service
         }
         
         // Shopping cart
-        public async Task<List<CartItem>> GetCartItems(string userId)
+        public async Task<List<CartItemViewModel>> GetCartItems(string userId)
         {
             var shoppingSession = await _mongoDbContext.ShoppingSessions
                 .Find(session => session.UserId == userId)
                 .FirstOrDefaultAsync();
 
-            return shoppingSession?.Items ?? new List<CartItem>();
+            if (shoppingSession == null)
+            {
+                return new List<CartItemViewModel>(); // Return an empty list if the shopping session is not found
+            }
+
+            var cartItemsViewModel = new List<CartItemViewModel>();
+
+            foreach (var cartItem in shoppingSession.Items)
+            {
+                var tutorial = await _mongoDbContext.Tutorials.Find(t => t.Id == cartItem.ProductId).FirstOrDefaultAsync();
+                if (tutorial != null)
+                {
+                    var cartItemViewModel = new CartItemViewModel
+                    {
+                        ProductId = cartItem.ProductId,
+                        ProductName = tutorial.Title,
+                        Price = cartItem.Price,
+                        Quantity = cartItem.Quantity,
+                        ImageUrl = tutorial.VideoUrl
+                    };
+                    cartItemsViewModel.Add(cartItemViewModel);
+                }
+            }
+
+            return cartItemsViewModel;
         }
+
 
         public async Task AddToCart(string userId, CartItem cartItem)
         {
@@ -334,7 +360,8 @@ namespace Service.Service
                         {
                             orderItems.Add(new OrderItem
                             {
-                                Id = tutorial.Id,
+                                Id = ObjectId.GenerateNewId().ToString(),
+                                TutorialId = tutorial.Id,
                                 Price = tutorial.Price,
                                 Quantity = cartItem.Quantity,
                             });
