@@ -9,7 +9,7 @@
         public int Quantity { get; set; }
         
         public string TutorialId { get; set; }
-        public string CreatorEmail { get; set; } 
+        public string CreatorEmail { get; set; }  
         
     }
 }

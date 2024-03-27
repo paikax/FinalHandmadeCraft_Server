@@ -24,14 +24,17 @@ namespace Service.Service
         private readonly MongoDbContext _mongoDbContext;
         private readonly ISendMailService _sendMailService;
         private readonly IMapper _mapper;
+        private readonly IPayPalService _payPalService;
 
         public OrderService(MongoDbContext mongoDbContext, ISendMailService sendMailService, 
+            IPayPalService payPalService,
             IMapper mapper, AppDbContext sqlContext)
         {
             _mongoDbContext = mongoDbContext;
             _sendMailService = sendMailService;
             _mapper = mapper;
             _sqlContext = sqlContext;
+            _payPalService = payPalService;
         }
         
         private const decimal CommissionRate = 0.05m;
@@ -189,19 +192,27 @@ namespace Service.Service
 
         private async Task<MailContent> GenerateBuyerEmailContent(Order order)
         {
-            var subject = "Your order bill detail";
-            var body = "Thank you for your order! Here are the details of your purchase:\n\n";
-
+            var subject = "Your order details from HandMadeCraft";
+            var body = "<h1 style=\"color: #4CAF50;\">Thank you for your order from HandMadeCraft!</h1>";
+            body += "<p>Here are the details of your purchase:</p>";
+            
             // Append order details to the email body
-            body += $"Order ID: {order.Id}\n";
-            body += $"Order Date: {order.OrderDate}\n";
-            body += "Items:\n";
+            body += $"<p><strong>Order ID:</strong> {order.Id}</p>";
+            body += $"<p><strong>Order Date:</strong> {order.OrderDate}</p>";
+            body += "<h2>Items:</h2>";
+            body += "<ul>";
             foreach (var item in order.Items)
             {
                 var productName = await GetProductNameFromTutorialId(item.TutorialId);
-                body += $"- {productName} (Price: {item.Price}, Quantity: {item.Quantity})\n";
+                body += $"<li>{productName} (Price: {item.Price}, Quantity: {item.Quantity})</li>";
             }
-            body += $"\nTotal Price: {order.TotalPrice}\n";
+            body += "</ul>";
+            body += $"<p><strong>Total Price:</strong> {order.TotalPrice}</p>";
+            
+            // Include transaction fee information
+            var transactionFee = order.TotalPrice * CommissionRate;
+            body += $"<p><strong>Transaction Fee:</strong> {transactionFee}</p>";
+            body += $"<p><strong>Amount after Transaction Fee:</strong> {order.TotalPrice - transactionFee}</p>";
 
             var buyerEmail = order.BuyerEmail ?? "";
             return new MailContent { To = buyerEmail, Subject = subject, Body = body };
@@ -209,19 +220,24 @@ namespace Service.Service
 
         private async Task<MailContent> GenerateSellerEmailContent(Order order, OrderItem item)
         {
-            var subject = "New Order Received";
-            var body = "You have received a new order! Here are the details:\n\n";
-
+            var subject = "New order received on HandMadeCraft";
+            var body = "<h1 style=\"color: #4CAF50;\">You have received a new order on HandMadeCraft!</h1>";
+            body += "<p>Here are the details:</p>";
+            
             // Append order details to the email body
-            body += $"Order ID: {order.Id}\n";
-            body += $"Order Date: {order.OrderDate}\n";
-            body += "Item Details:\n";
-
+            body += $"<p><strong>Order ID:</strong> {order.Id}</p>";
+            body += $"<p><strong>Order Date:</strong> {order.OrderDate}</p>";
+            body += "<h2>Item Details:</h2>";
             var productName = await GetProductNameFromTutorialId(item.TutorialId);
-            body += $"- Product Name: {productName}\n";
-            body += $"- Price: {item.Price}\n";
-            body += $"- Quantity: {item.Quantity}\n";
-            body += $"- Total Price: {item.Price * item.Quantity}\n\n";
+            body += $"<p><strong>Product Name:</strong> {productName}</p>";
+            body += $"<p><strong>Price:</strong> {item.Price}</p>";
+            body += $"<p><strong>Quantity:</strong> {item.Quantity}</p>";
+            body += $"<p><strong>Total Price:</strong> {item.Price * item.Quantity}</p>";
+            
+            // Include transaction fee information
+            var transactionFee = item.Price * item.Quantity * CommissionRate;
+            body += $"<p><strong>Transaction Fee:</strong> {transactionFee}</p>";
+            body += $"<p><strong>Amount after Transaction Fee:</strong> {item.Price * item.Quantity - transactionFee}</p>";
 
             // Fetch the tutorial to get the creator's ID
             var tutorial = await _mongoDbContext.Tutorials
@@ -232,13 +248,14 @@ namespace Service.Service
             {
                 // Fetch the creator's email using the creator's ID from the tutorial
                 var creatorEmail = await GetCreatorEmailFromId(tutorial.CreatedById);
-                return new MailContent { To = creatorEmail, Subject = subject, Body = body };
+                return new MailContent { To = creatorEmail, Subject = subject, Body = body};
             }
             else
             {
                 throw new Exception($"Tutorial not found for the TutorialId: {item.TutorialId}");
             }
         }
+
         
         private async Task<string> GetCreatorEmailFromId(string creatorId)
         {
@@ -247,6 +264,20 @@ namespace Service.Service
             if (creator != null)
             {
                 return creator.Email;
+            }
+            else
+            {
+                throw new Exception($"Creator not found for the CreatorId: {creatorId}");
+            }
+        }
+        
+        private async Task<string> GetCreatorPayPalEmailFromId(string creatorId)
+        {
+            // Assuming you have a mechanism to retrieve the creator's email using the creatorId
+            var creator = await _sqlContext.Users.FirstOrDefaultAsync(u => u.Id == creatorId);
+            if (creator != null)
+            {
+                return creator.PayPalEmail;
             }
             else
             {
@@ -406,8 +437,6 @@ namespace Service.Service
                     // Calculate total price
                     decimal totalPrice = orderItems.Sum(item => item.Price * item.Quantity);
                     
-                   
-
                     // Create an order request
                     var orderRequest = new OrderRequest
                     {
@@ -423,6 +452,33 @@ namespace Service.Service
                     // Create the order
                     var order = await CreateOrder(orderRequest, userId);
                     
+                    // Send payments to sellers for each item in the order
+                    foreach (var item in orderItems)
+                    {
+                        // Fetch the tutorial to get the creator's ID
+                        var tutorial = await _mongoDbContext.Tutorials
+                            .Find(t => t.Id == item.TutorialId)
+                            .FirstOrDefaultAsync();
+
+                        if (tutorial != null)
+                        {
+                            // Fetch the creator's email using the creator's ID from the tutorial
+                            var creatorPayPalEmailEmail = await GetCreatorPayPalEmailFromId(tutorial.CreatedById);
+                            
+                            // Send payment to the seller
+                            var success = await _payPalService.SendPayment(creatorPayPalEmailEmail, item.Price * item.Quantity);
+                            
+                            if (!success)
+                            {
+                                // Handle payment failure
+                                // You can log the failure or take appropriate action
+                            }
+                        }
+                        else
+                        {
+                            throw new Exception($"Tutorial not found for the TutorialId: {item.TutorialId}");
+                        }
+                    }
 
                     // Clear the shopping cart after creating the order
                     await UpdateCart(userId, new List<CartItem>());
@@ -439,6 +495,8 @@ namespace Service.Service
                 throw new Exception($"Error buying items from cart: {ex.Message}");
             }
         }
+
+        
 
         
 
