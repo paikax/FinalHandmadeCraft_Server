@@ -10,7 +10,7 @@ namespace Service.IServices
     {
         public Task<TutorialDTO> GetTutorialById(string id);
         Task<TutorialDTO> CreateTutorial(TutorialCreateRequest model);
-        Task UpdateTutorial(string id, TutorialDTO tutorialDTO); 
+        Task UpdateTutorial(string id, TutorialUpdateRequest model);
         Task DeleteTutorial(string id);
         Task AddCommentToTutorial(string tutorialId, CommentCreateRequest comment);
         Task AddLikeToTutorial(string tutorialId, LikeDTO like);

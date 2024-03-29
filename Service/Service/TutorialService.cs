@@ -146,10 +146,32 @@ namespace Service.Service
             return _mapper.Map<TutorialDTO>(tutorial);
         }
 
-        public Task UpdateTutorial(string id, TutorialDTO tutorialDTO)
+        public async Task UpdateTutorial(string id, TutorialUpdateRequest model)
         {
-            throw new System.NotImplementedException();
+            var tutorial = await _mongoDbContext.Tutorials.Find(t => t.Id == id).FirstOrDefaultAsync();
+
+            if (tutorial == null)
+            {
+                throw new NotFoundException("Tutorial not found.");
+            }
+
+            // Update properties from the model
+            tutorial.Title = model.Title;
+            tutorial.DifficultLevel = model.DifficultLevel;
+            tutorial.CompletionTime = model.CompletionTime;
+            tutorial.Instruction = model.Instruction;
+            tutorial.Material = model.Material;
+            tutorial.Price = model.Price;
+
+            // Perform the update operation
+            var updateResult = await _mongoDbContext.Tutorials.ReplaceOneAsync(t => t.Id == id, tutorial);
+
+            if (updateResult.ModifiedCount == 0)
+            {
+                throw new Exception("Tutorial could not be updated.");
+            }
         }
+
 
         // public async Task UpdateTutorial(string id, TutorialUpdateRequest model)
         // {

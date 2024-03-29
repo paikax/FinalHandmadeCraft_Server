@@ -138,7 +138,7 @@ namespace Service.Service
             order.UserId = userId;
             order.OrderDate = DateTime.Now;
             // order.SellerEmail = orderRequest.SellerEmail;
-            order.CreatorId = orderRequest.CreatorId;
+            // order.CreatorId = orderRequest.CreatorId;
             order.BuyerEmail = order.BuyerEmail;
 
             // Fetch tutorial details for each item in the order and update order properties

@@ -55,13 +55,25 @@ namespace WebAPI.Controllers
 
             return Ok(createdTutorial);
         }
-        // [HttpPut("{id}")]
-        // public async Task<IActionResult> PutTutorial(string id, [FromBody] TutorialUpdateRequest model)
-        // {
-        //     await _tutorialService.UpdateTutorial(id, model);
-        //
-        //     return NoContent();
-        // }
+        
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateTutorial(string id, [FromBody] TutorialUpdateRequest model)
+        {
+            try
+            {
+                await _tutorialService.UpdateTutorial(id, model);
+                return NoContent();
+            }
+            catch (NotFoundException ex)
+            {
+                return NotFound(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTutorial(string id)

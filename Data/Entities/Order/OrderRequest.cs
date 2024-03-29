@@ -18,6 +18,5 @@ namespace Data.Entities.Order
         public DateTime OrderDate { get; set; } 
         [BsonRepresentation(BsonType.DateTime)]
         public DateTime LastUpdated { get; set; }
-        public string CreatorId { get; set; }
     }
 }
