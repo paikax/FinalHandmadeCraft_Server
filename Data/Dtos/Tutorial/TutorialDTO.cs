@@ -16,7 +16,7 @@ namespace Data.Dtos.Tutorial
         public string CategoryName { get; set; }
         
         public string Material { get; set; }
-        public List<string> MaterialIds { get; set; } // Assuming material IDs will be sent from the frontend
+        public List<string> MaterialIds { get; set; } 
         public decimal Price { get; set; }
         public string UserProfilePicture { get; set; }
         public string UserName { get; set; }

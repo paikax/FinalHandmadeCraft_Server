@@ -4,7 +4,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Data.Entities.Cart
 {
-    public class ShoppingSession
+    public class Cart
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

@@ -35,7 +35,7 @@ namespace Service.InitDB
                 {
                     var adminUser = new User
                     {
-                        Email = "paika2060@gmail.com",
+                        Email = "admin@gmail.com",
                         FirstName = "Phong",
                         LastName = "Mai",
                         PasswordHash = BCrypt.Net.BCrypt.HashPassword("Phong123"),

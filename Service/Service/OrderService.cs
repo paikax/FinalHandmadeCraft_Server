@@ -350,8 +350,8 @@ namespace Service.Service
                 {
                     // Update the quantity of the existing item
                     existingItem.Quantity += cartItem.Quantity;
-                    var filter = Builders<ShoppingSession>.Filter.Eq(session => session.UserId, userId);
-                    var update = Builders<ShoppingSession>.Update.Set(session => session.Items, shoppingSession.Items);
+                    var filter = Builders<Cart>.Filter.Eq(session => session.UserId, userId);
+                    var update = Builders<Cart>.Update.Set(session => session.Items, shoppingSession.Items);
                     await _mongoDbContext.ShoppingSessions.UpdateOneAsync(filter, update);
                 }
                 else
@@ -367,7 +367,7 @@ namespace Service.Service
                     // Add the item to the user's shopping cart
                     if (shoppingSession == null)
                     {
-                        shoppingSession = new ShoppingSession
+                        shoppingSession = new Cart
                         {
                             UserId = userId,
                             Items = new List<CartItem> { itemToAdd }
@@ -504,9 +504,9 @@ namespace Service.Service
         {
             try
             {
-                var filter = Builders<ShoppingSession>.Filter.Eq(session => session.UserId, userId);
-                var update = Builders<ShoppingSession>.Update.Set(session => session.Items, cartItems);
-                var options = new FindOneAndUpdateOptions<ShoppingSession>
+                var filter = Builders<Cart>.Filter.Eq(session => session.UserId, userId);
+                var update = Builders<Cart>.Update.Set(session => session.Items, cartItems);
+                var options = new FindOneAndUpdateOptions<Cart>
                 {
                     IsUpsert = true,
                     ReturnDocument = ReturnDocument.After
@@ -525,9 +525,9 @@ namespace Service.Service
 
         public async Task RemoveFromCart(string userId, string productId)
         {
-            var filter = Builders<ShoppingSession>.Filter.Eq(session => session.UserId, userId);
-            var update = Builders<ShoppingSession>.Update.PullFilter(session => session.Items, item => item.ProductId == productId);
-            var options = new FindOneAndUpdateOptions<ShoppingSession>
+            var filter = Builders<Cart>.Filter.Eq(session => session.UserId, userId);
+            var update = Builders<Cart>.Update.PullFilter(session => session.Items, item => item.ProductId == productId);
+            var options = new FindOneAndUpdateOptions<Cart>
             {
                 ReturnDocument = ReturnDocument.After
             };
@@ -537,12 +537,12 @@ namespace Service.Service
 
         public async Task UpdateCartItemQuantity(string userId, string productId, int quantity)
         {
-            var filter = Builders<ShoppingSession>.Filter.And(
-                Builders<ShoppingSession>.Filter.Eq(session => session.UserId, userId),
-                Builders<ShoppingSession>.Filter.Eq("Items.ProductId", productId)
+            var filter = Builders<Cart>.Filter.And(
+                Builders<Cart>.Filter.Eq(session => session.UserId, userId),
+                Builders<Cart>.Filter.Eq("Items.ProductId", productId)
             );
-            var update = Builders<ShoppingSession>.Update.Set("Items.$.Quantity", quantity);
-            var options = new FindOneAndUpdateOptions<ShoppingSession>
+            var update = Builders<Cart>.Update.Set("Items.$.Quantity", quantity);
+            var options = new FindOneAndUpdateOptions<Cart>
             {
                 ReturnDocument = ReturnDocument.After
             };

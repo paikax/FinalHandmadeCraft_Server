@@ -49,8 +49,8 @@ namespace Data.Entities.User
         public bool IsPremium { get; set; } = false;
         
         public bool IsPayPalLinked { get; set; } = false;
-        public string PayPalClientId { get; set; }
-        public string PayPalClientSecret { get; set; }
+        // public string PayPalClientId { get; set; }
+        // public string PayPalClientSecret { get; set; }
         
         public string PayPalEmail { get; set; }
         

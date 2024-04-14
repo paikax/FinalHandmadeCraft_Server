@@ -24,7 +24,7 @@ namespace Data.Entities.Tutorial
 
         public List<Material.Material> Materials { get; set; }
         public decimal Price { get; set; }
-        public DateTime UploadTime { get; set; }
+        public DateTime UploadTime { get; set; }    
         
         public List<Comment.Comment> Comments { get; set; } = new List<Comment.Comment>();
         public List<Like> Likes { get; set; } = new List<Like>();

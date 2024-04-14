@@ -30,6 +30,6 @@ namespace Data.Context
         
         public IMongoCollection<Comment> Comments => _database.GetCollection<Comment>("Comments");
         
-        public IMongoCollection<ShoppingSession> ShoppingSessions => _database.GetCollection<ShoppingSession>("shopping_sessions");
+        public IMongoCollection<Cart> ShoppingSessions => _database.GetCollection<Cart>("shopping_sessions");
     }
 }
