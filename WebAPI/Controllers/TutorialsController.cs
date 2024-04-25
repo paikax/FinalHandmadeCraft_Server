@@ -46,13 +46,7 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<TutorialDTO>> PostTutorial([FromBody] TutorialCreateRequest model)
         {
-            // Perform the tutorial creation
             var createdTutorial = await _tutorialService.CreateTutorial(model);
-
-            // Invalidate the cache for the list of tutorials
-            // var cacheKey = "/api/tutorials";
-            // _cache.Remove(cacheKey);
-
             return Ok(createdTutorial);
         }
         
@@ -87,7 +81,7 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> AddCommentToTutorial(string tutorialId, [FromBody] CommentCreateRequest comment)
         {
             await _tutorialService.AddCommentToTutorial(tutorialId, comment);
-            return NoContent();
+            return Ok("You've just addded new comment");
         }
 
         [HttpPost("{tutorialId}/likes")]
@@ -112,14 +106,14 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> RemoveCommentFromTutorial(string tutorialId, string commentId)
         {
             await _tutorialService.RemoveCommentFromTutorial(tutorialId, commentId);
-            return NoContent();
+            return Ok("You've removed the comment");
         }
 
         [HttpDelete("{tutorialId}/likes/{likeId}")]
         public async Task<IActionResult> RemoveLikeFromTutorial(string tutorialId, string likeId, string userId)
         {
             await _tutorialService.RemoveLikeFromTutorial(tutorialId, likeId, userId);
-            return NoContent();
+            return Ok("Removed comment successfully!");
         }
         
         [HttpGet("search")]
@@ -150,7 +144,7 @@ namespace WebAPI.Controllers
             try
             {
                 await _tutorialService.RemoveReplyFromComment(tutorialId, commentId, replyId);
-                return NoContent();
+                return Ok("You've just replied the comment");
             }
             catch (Exception ex)
             {

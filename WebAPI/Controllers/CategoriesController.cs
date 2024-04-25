@@ -1,4 +1,4 @@
-﻿// CategoriesController.cs
+﻿ // CategoriesController.cs
 
 using System;
 using Microsoft.AspNetCore.Mvc;

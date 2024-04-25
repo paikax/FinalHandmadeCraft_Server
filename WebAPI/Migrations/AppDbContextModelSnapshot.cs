@@ -132,12 +132,6 @@ namespace WebAPI.Migrations
                     b.Property<DateTime?>("PasswordReset")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("PayPalClientId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PayPalClientSecret")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PayPalEmail")
                         .HasColumnType("nvarchar(max)");
 

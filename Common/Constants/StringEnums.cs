@@ -35,6 +35,7 @@ namespace Common.Constants
             [StringValue("User")] UserRole,
             [StringValue("Supplier")] SupplierRole,
             [StringValue("Admin")] AdminRole,
+            [StringValue("Creator")] Creator,
         }
     }
 }

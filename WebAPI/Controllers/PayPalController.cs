@@ -1,7 +1,9 @@
 ﻿// PayPalController.cs
 
 using System;
+using System.Reflection.Metadata;
 using System.Threading.Tasks;
+using Common.Constants;
 using Data.Context;
 using Data.Entities.User;
 using Microsoft.AspNetCore.Mvc;
@@ -80,6 +82,7 @@ namespace WebAPI.Controllers
             user.PayPalFirstName = request.PayPalFirstName;
             user.PayPalLastName = request.PayPalLastName;
             user.IsPayPalLinked = true;
+            user.Role = StringEnums.Roles.Creator;
 
             await _db.SaveChangesAsync();
 

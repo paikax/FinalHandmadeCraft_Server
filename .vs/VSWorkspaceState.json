@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data",
+    "\\Data\\Entities",
+    "\\Data\\Entities\\Cart",
+    "\\Data\\Entities\\Order"
   ],
-  "SelectedNode": "\\HANDMADE_CRAFTS.sln",
+  "SelectedNode": "\\Data\\Entities\\Cart\\Cart.cs",
   "PreviewInSolutionExplorer": false
 }

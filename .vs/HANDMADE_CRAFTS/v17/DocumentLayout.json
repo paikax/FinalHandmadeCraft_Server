@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\work\\final_year_greenwich_project\\FinalHandmadeCraft_Server\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8390B4-4914-42A7-A513-1D1075DF5510}|Service\\Service.csproj|d:\\work\\final_year_greenwich_project\\finalhandmadecraft_server\\service\\servicestesting\\tutorialservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8390B4-4914-42A7-A513-1D1075DF5510}|Service\\Service.csproj|solutionrelative:service\\servicestesting\\tutorialservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TutorialServiceTest.cs",
+              "DocumentMoniker": "D:\\work\\final_year_greenwich_project\\FinalHandmadeCraft_Server\\Service\\ServicesTesting\\TutorialServiceTest.cs",
+              "RelativeDocumentMoniker": "Service\\ServicesTesting\\TutorialServiceTest.cs",
+              "ToolTip": "D:\\work\\final_year_greenwich_project\\FinalHandmadeCraft_Server\\Service\\ServicesTesting\\TutorialServiceTest.cs",
+              "RelativeToolTip": "Service\\ServicesTesting\\TutorialServiceTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T03:18:47.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
