@@ -46,7 +46,8 @@ namespace WebAPI.UnitTests
 
             // Assert
             var okResult = Assert.IsType<OkObjectResult>(result);
-            Assert.Equal("Payment captured successfully.", okResult.Value.GetType().GetProperty("Message").GetValue(okResult.Value));
+            Assert.Equal("Payment captured successfully.",
+                okResult.Value.GetType().GetProperty("Message").GetValue(okResult.Value));
         }
 
         [Fact]
@@ -65,7 +66,8 @@ namespace WebAPI.UnitTests
 
             // Assert
             var badRequestResult = Assert.IsType<BadRequestObjectResult>(result);
-            Assert.Equal("Failed to capture payment.", badRequestResult.Value.GetType().GetProperty("Message").GetValue(badRequestResult.Value));
+            Assert.Equal("Failed to capture payment.", 
+                badRequestResult.Value.GetType().GetProperty("Message").GetValue(badRequestResult.Value));
         }
     }
 }

@@ -81,7 +81,7 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> AddCommentToTutorial(string tutorialId, [FromBody] CommentCreateRequest comment)
         {
             await _tutorialService.AddCommentToTutorial(tutorialId, comment);
-            return Ok("You've just addded new comment");
+            return Ok("You've just added new comment");
         }
 
         [HttpPost("{tutorialId}/likes")]
