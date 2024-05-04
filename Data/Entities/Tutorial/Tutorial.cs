@@ -29,5 +29,7 @@ namespace Data.Entities.Tutorial
         public List<Comment.Comment> Comments { get; set; } = new List<Comment.Comment>();
         public List<Like> Likes { get; set; } = new List<Like>();
         
+        public int Quantity { get; set; }
+        
     }
 }

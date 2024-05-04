@@ -22,5 +22,6 @@ namespace Data.Dtos.Tutorial
         
         public List<string> Comments { get; set; } = new List<string>();
         public int Rating { get; set; } = 0;
+        public int Quantity { get; set; }
     }
 }

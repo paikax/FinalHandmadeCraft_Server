@@ -249,19 +249,23 @@ namespace Service.Service
         public async Task ForgotPassword(ForgotPasswordRequest model, string origin)
         {
             var account = await _db.Users.FirstOrDefaultAsync(u => u.Email.ToLower() == model.Email.ToLower());
-            
-            // always return ok response to prevent email enumeration
-            if (account == null) return;
-            
+    
+            // If account not found, return error message
+            if (account == null)
+            {
+                throw new InvalidOperationException("Email hasn't been signed up yet.");
+            }
+    
             // create reset token that expire after 12 hours
             account.ResetToken = RandomTokenString();
             account.ResetTokenExpires = DateTime.Now.AddHours(12);
 
             await _db.SaveChangesAsync();
-            
+    
             // send email
             await SendPasswordResetEmail(account, origin);
         }
+
         
         public async Task ValidateResetToken(ValidateResetTokenRequest model)
         {

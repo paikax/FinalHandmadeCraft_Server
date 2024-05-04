@@ -193,26 +193,66 @@ namespace Service.Service
         private async Task<MailContent> GenerateBuyerEmailContent(Order order)
         {
             var subject = "Your order details from HandMadeCraft";
-            var body = "<h1 style=\"color: #4CAF50;\">Thank you for your order from HandMadeCraft!</h1>";
-            body += "<p>Here are the details of your purchase:</p>";
-            
-            // Append order details to the email body
-            body += $"<p><strong>Order ID:</strong> {order.Id}</p>";
-            body += $"<p><strong>Order Date:</strong> {order.OrderDate}</p>";
-            body += "<h2>Items:</h2>";
-            body += "<ul>";
+            var body = "<!DOCTYPE html>" +
+                       "<html lang=\"en\">" +
+                       "<head>" +
+                       "<meta charset=\"UTF-8\">" +
+                       "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" +
+                       "<title>Order Details</title>" +
+                       "<style>" +
+                       "body {" +
+                       "    font-family: Poppins, sans-serif;" +
+                       "    margin: 0;" +
+                       "    padding: 0;" +
+                       "}" +
+                       "div {" +
+                       "    margin: 10px;" +
+                       "    padding: 20px;" +
+                       "    background : linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),url('https://w.wallhaven.cc/full/l8/wallhaven-l8vp7y.jpg');" +
+                       "    background-position: center;" +
+                       "    background-size: cover;" +
+                       "    border-radius: 10px;" +
+                       "    color: #fff;" +
+                       "    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;" +
+                       "}" +
+                       "h1 {" +
+                       "    text-align: center;" +
+                       "}" +
+                       "p {" +
+                       "    margin: 0;" +
+                       "    padding: 0;" +
+                       "}" +
+                       "ul {" +
+                       "    list-style-type: none;" +
+                       "    padding: 0;" +
+                       "}" +
+                       "li {" +
+                       "    margin-bottom: 10px;" +
+                       "}" +
+                       "</style>" +
+                       "</head>" +
+                       "<body>" +
+                       "<div>" +
+                       "<h1>Thank you for your order from HandMadeCraft!</h1>" +
+                       "<p>Here are the details of your purchase:</p>" +
+                       $"<p><strong>Order ID:</strong> {order.Id}</p>" +
+                       $"<p><strong>Order Date:</strong> {order.OrderDate}</p>" +
+                       "<h2>Items:</h2>" +
+                       "<ul>";
+
             foreach (var item in order.Items)
             {
                 var productName = await GetProductNameFromTutorialId(item.TutorialId);
                 body += $"<li>{productName} (Price: {item.Price}, Quantity: {item.Quantity})</li>";
             }
-            body += "</ul>";
-            body += $"<p><strong>Total Price:</strong> {order.TotalPrice}</p>";
-            
-            // Include transaction fee information
-            var transactionFee = order.TotalPrice * CommissionRate;
-            body += $"<p><strong>Transaction Fee:</strong> {transactionFee}</p>";
-            body += $"<p><strong>Amount after Transaction Fee:</strong> {order.TotalPrice - transactionFee}</p>";
+
+            body += "</ul>" +
+                    $"<p><strong>Total Price:</strong> {order.TotalPrice}</p>" +
+                    $"<p><strong>Transaction Fee:</strong> {order.TotalPrice * CommissionRate}</p>" +
+                    $"<p><strong>Amount after Transaction Fee:</strong> {order.TotalPrice - (order.TotalPrice * CommissionRate)}</p>" +
+                    "</div>" +
+                    "</body>" +
+                    "</html>";
 
             var buyerEmail = order.BuyerEmail ?? "";
             return new MailContent { To = buyerEmail, Subject = subject, Body = body };

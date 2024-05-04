@@ -162,6 +162,7 @@ namespace Service.Service
             tutorial.Instruction = model.Instruction;
             tutorial.Material = model.Material;
             tutorial.Price = model.Price;
+            tutorial.Quantity = model.Quantity;
 
             // Perform the update operation
             var updateResult = await _mongoDbContext.Tutorials.ReplaceOneAsync(t => t.Id == id, tutorial);

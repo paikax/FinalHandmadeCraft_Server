@@ -5,6 +5,7 @@ using Data.Dtos.Comment;
 using Data.Dtos.Tutorial;
 using Data.Entities.Comment;
 using Data.Entities.Tutorial;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using SendGrid.Helpers.Errors.Model;
@@ -23,6 +24,7 @@ namespace WebAPI.Controllers
             _tutorialService = tutorialService;
         }
 
+        // [Authorize]
         [HttpGet]
         public async Task<ActionResult<List<TutorialDTO>>> GetTutorials()
         {

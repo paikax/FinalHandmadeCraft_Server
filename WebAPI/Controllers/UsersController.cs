@@ -40,9 +40,6 @@ namespace WebAPI.Controllers
             return Ok(new { EmailExists = emailExists });
         }
 
-
-
-
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest model)
         {
@@ -92,9 +89,18 @@ namespace WebAPI.Controllers
         [HttpPost("forgot-password")]
         public async Task<IActionResult> ForgotPassword(ForgotPasswordRequest model)
         {
-            await _userService.ForgotPassword(model, Request.Headers["origin"]);
-            return Ok(new { message = "Please check your email for password reset instructions" });
+            try
+            {
+                await _userService.ForgotPassword(model, Request.Headers["origin"]);
+                return Ok(new { message = "Please check your email for password reset instructions" });
+            }
+            catch (InvalidOperationException ex)
+            {
+                // Return specific error message for email not found
+                return BadRequest(new { message = ex.Message });
+            }
         }
+
         
         [HttpPost("reset-password")]
         public async Task<IActionResult> ResetPassword(ResetPasswordRequest model)

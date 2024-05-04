@@ -29,6 +29,7 @@ namespace Data.Dtos.Tutorial
         public string CreatorEmail { get; set; }
         public List<LikeResponse> Likes { get; set; } = new List<LikeResponse>();
         public List<CommentDTO> Comments { get; set; } = new List<CommentDTO>();
+        public int Quantity { get; set; }
         
     }
 }
